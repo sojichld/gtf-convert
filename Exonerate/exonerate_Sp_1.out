@@ -1,0 +1,1792 @@
+Command line: [exonerate --percent 95 --dpmemory 500000 --fsmmemory 500000 --softmasktarget yes --verbose 1 --showalignment no --showvulgar no --showsugar no --showcigar no --showtargetgff yes --model est2genome --querychunkid 1 --querychunktotal 100 /nobackup/echinotol/cuke/fasta/SAMN02594504.fasta /nobackup/echinotol/cuke/fasta/final_scaffolds.fasta.masked]
+Hostname: [str-bm3.uncc.edu]
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg4990_len=59915	exonerate:est2genome	gene	58928	59261	1619	+	.	gene_id 1 ; sequence GAUT01000780.1 ; gene_orientation . ; identity 99.10 ; similarity 99.10
+ctg4990_len=59915	exonerate:est2genome	exon	58928	59261	.	+	.	insertions 0 ; deletions 2 ; identity 99.10 ; similarity 99.10
+ctg4990_len=59915	exonerate:est2genome	similarity	58928	59261	1619	+	.	alignment_id 1 ; Query GAUT01000780.1 ; Align 58928 1 155 ; Align 59083 157 140 ; Align 59223 298 39
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg859_len=453101	exonerate:est2genome	gene	326926	329747	1660	-	.	gene_id 1 ; sequence GAUT01000956.1 ; gene_orientation + ; identity 99.14 ; similarity 99.14
+ctg859_len=453101	exonerate:est2genome	utr5	329648	329747	.	-	.	
+ctg859_len=453101	exonerate:est2genome	exon	329648	329747	.	-	.	insertions 1 ; deletions 1 ; identity 97.00 ; similarity 97.00
+ctg859_len=453101	exonerate:est2genome	splice5	329646	329647	.	-	.	intron_id 1 ; splice_site "GT"
+ctg859_len=453101	exonerate:est2genome	intron	327320	329647	.	-	.	intron_id 1
+ctg859_len=453101	exonerate:est2genome	splice3	327320	327321	.	-	.	intron_id 0 ; splice_site "AG"
+ctg859_len=453101	exonerate:est2genome	utr5	327191	327319	.	-	.	
+ctg859_len=453101	exonerate:est2genome	exon	327191	327319	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg859_len=453101	exonerate:est2genome	splice5	327189	327190	.	-	.	intron_id 2 ; splice_site "GT"
+ctg859_len=453101	exonerate:est2genome	intron	327046	327190	.	-	.	intron_id 2
+ctg859_len=453101	exonerate:est2genome	splice3	327046	327047	.	-	.	intron_id 1 ; splice_site "AG"
+ctg859_len=453101	exonerate:est2genome	exon	326926	327045	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg859_len=453101	exonerate:est2genome	similarity	326926	329747	1660	-	.	alignment_id 1 ; Query GAUT01000956.1 ; Align 329748 1 8 ; Align 329739 9 40 ; Align 329699 50 51 ; Align 327320 101 129 ; Align 327046 230 120
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg977_len=886491	exonerate:est2genome	gene	82580	82933	1723	+	.	gene_id 1 ; sequence GAUT01000850.1 ; gene_orientation . ; identity 99.43 ; similarity 99.43
+ctg977_len=886491	exonerate:est2genome	exon	82580	82933	.	+	.	insertions 1 ; deletions 1 ; identity 99.43 ; similarity 99.43
+ctg977_len=886491	exonerate:est2genome	similarity	82580	82933	1723	+	.	alignment_id 1 ; Query GAUT01000850.1 ; Align 82580 2 202 ; Align 82783 204 20 ; Align 82803 225 131
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg970_len=305932	exonerate:est2genome	gene	94516	95036	2587	+	.	gene_id 1 ; sequence GAUT01000878.1 ; gene_orientation . ; identity 99.62 ; similarity 99.62
+ctg970_len=305932	exonerate:est2genome	exon	94516	95036	.	+	.	insertions 0 ; deletions 0 ; identity 99.62 ; similarity 99.62
+ctg970_len=305932	exonerate:est2genome	similarity	94516	95036	2587	+	.	alignment_id 1 ; Query GAUT01000878.1 ; Align 94516 1 521
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg967_len=303867	exonerate:est2genome	gene	283921	284508	2886	+	.	gene_id 1 ; sequence GAUT01000376.1 ; gene_orientation . ; identity 99.83 ; similarity 99.83
+ctg967_len=303867	exonerate:est2genome	exon	283921	284508	.	+	.	insertions 1 ; deletions 3 ; identity 99.83 ; similarity 99.83
+ctg967_len=303867	exonerate:est2genome	similarity	283921	284508	2886	+	.	alignment_id 1 ; Query GAUT01000376.1 ; Align 283921 1 17 ; Align 283938 20 166 ; Align 284105 186 81 ; Align 284186 268 323
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg942_len=200313	exonerate:est2genome	gene	122250	122665	2035	-	.	gene_id 1 ; sequence GAUT01000822.1 ; gene_orientation . ; identity 99.76 ; similarity 99.76
+ctg942_len=200313	exonerate:est2genome	exon	122250	122665	.	-	.	insertions 0 ; deletions 3 ; identity 99.76 ; similarity 99.76
+ctg942_len=200313	exonerate:est2genome	similarity	122250	122665	2035	-	.	alignment_id 1 ; Query GAUT01000822.1 ; Align 122666 1 32 ; Align 122634 34 288 ; Align 122346 323 80 ; Align 122266 404 16
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg934_len=325016	exonerate:est2genome	gene	268096	268404	1488	+	.	gene_id 1 ; sequence GAUT01000096.1 ; gene_orientation . ; identity 98.38 ; similarity 98.38
+ctg934_len=325016	exonerate:est2genome	exon	268096	268404	.	+	.	insertions 0 ; deletions 1 ; identity 98.38 ; similarity 98.38
+ctg934_len=325016	exonerate:est2genome	similarity	268096	268404	1488	+	.	alignment_id 1 ; Query GAUT01000096.1 ; Align 268096 1 61 ; Align 268157 63 248
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg890_len=452804	exonerate:est2genome	gene	331661	332052	1939	+	.	gene_id 1 ; sequence GAUT01000326.1 ; gene_orientation . ; identity 99.74 ; similarity 99.74
+ctg890_len=452804	exonerate:est2genome	exon	331661	332052	.	+	.	insertions 0 ; deletions 1 ; identity 99.74 ; similarity 99.74
+ctg890_len=452804	exonerate:est2genome	similarity	331661	332052	1939	+	.	alignment_id 1 ; Query GAUT01000326.1 ; Align 331661 1 27 ; Align 331688 29 365
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg86_len=419563	exonerate:est2genome	gene	201805	202301	2461	-	.	gene_id 1 ; sequence GAUT01000303.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg86_len=419563	exonerate:est2genome	exon	201805	202301	.	-	.	insertions 0 ; deletions 2 ; identity 100.00 ; similarity 100.00
+ctg86_len=419563	exonerate:est2genome	similarity	201805	202301	2461	-	.	alignment_id 1 ; Query GAUT01000303.1 ; Align 202302 1 309 ; Align 201993 311 97 ; Align 201896 409 91
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg862_len=355674	exonerate:est2genome	gene	333453	333752	1476	-	.	gene_id 1 ; sequence GAUT01001114.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg862_len=355674	exonerate:est2genome	exon	333453	333752	.	-	.	insertions 0 ; deletions 2 ; identity 100.00 ; similarity 100.00
+ctg862_len=355674	exonerate:est2genome	similarity	333453	333752	1476	-	.	alignment_id 1 ; Query GAUT01001114.1 ; Align 333753 1 5 ; Align 333748 7 282 ; Align 333466 290 13
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg861_len=322472	exonerate:est2genome	gene	111748	112141	1946	-	.	gene_id 1 ; sequence GAUT01000899.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg861_len=322472	exonerate:est2genome	exon	111748	112141	.	-	.	insertions 0 ; deletions 2 ; identity 100.00 ; similarity 100.00
+ctg861_len=322472	exonerate:est2genome	similarity	111748	112141	1946	-	.	alignment_id 1 ; Query GAUT01000899.1 ; Align 112142 1 221 ; Align 111921 223 24 ; Align 111897 248 149
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg823_len=336477	exonerate:est2genome	gene	108845	109148	1447	-	.	gene_id 1 ; sequence GAUT01001238.1 ; gene_orientation . ; identity 99.67 ; similarity 99.67
+ctg823_len=336477	exonerate:est2genome	exon	108845	109148	.	-	.	insertions 4 ; deletions 1 ; identity 99.67 ; similarity 99.67
+ctg823_len=336477	exonerate:est2genome	similarity	108845	109148	1447	-	.	alignment_id 1 ; Query GAUT01001238.1 ; Align 109149 1 11 ; Align 109135 12 24 ; Align 109110 36 205 ; Align 108905 242 60
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg7_len=1035113	exonerate:est2genome	gene	667318	667617	1464	-	.	gene_id 1 ; sequence GAUT01000873.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg7_len=1035113	exonerate:est2genome	exon	667318	667617	.	-	.	insertions 0 ; deletions 3 ; identity 100.00 ; similarity 100.00
+ctg7_len=1035113	exonerate:est2genome	similarity	667318	667617	1464	-	.	alignment_id 1 ; Query GAUT01000873.1 ; Align 667618 1 106 ; Align 667512 108 19 ; Align 667493 128 14 ; Align 667479 143 161
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg7_len=1035113	exonerate:est2genome	gene	987825	1000257	1840	+	.	gene_id 1 ; sequence GAUT01000469.1 ; gene_orientation + ; identity 99.48 ; similarity 99.48
+ctg7_len=1035113	exonerate:est2genome	utr5	987825	987846	.	+	.	
+ctg7_len=1035113	exonerate:est2genome	exon	987825	987846	.	+	.	insertions 0 ; deletions 1 ; identity 100.00 ; similarity 100.00
+ctg7_len=1035113	exonerate:est2genome	splice5	987847	987848	.	+	.	intron_id 1 ; splice_site "GT"
+ctg7_len=1035113	exonerate:est2genome	intron	987847	990159	.	+	.	intron_id 1
+ctg7_len=1035113	exonerate:est2genome	splice3	990158	990159	.	+	.	intron_id 0 ; splice_site "AG"
+ctg7_len=1035113	exonerate:est2genome	utr5	990160	990231	.	+	.	
+ctg7_len=1035113	exonerate:est2genome	exon	990160	990231	.	+	.	insertions 1 ; deletions 0 ; identity 97.22 ; similarity 97.22
+ctg7_len=1035113	exonerate:est2genome	splice5	990232	990233	.	+	.	intron_id 2 ; splice_site "GT"
+ctg7_len=1035113	exonerate:est2genome	intron	990232	999966	.	+	.	intron_id 2
+ctg7_len=1035113	exonerate:est2genome	splice3	999965	999966	.	+	.	intron_id 1 ; splice_site "AG"
+ctg7_len=1035113	exonerate:est2genome	exon	999967	1000257	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg7_len=1035113	exonerate:est2genome	similarity	987825	1000257	1840	+	.	alignment_id 1 ; Query GAUT01000469.1 ; Align 987825 1 15 ; Align 987840 17 7 ; Align 990160 24 16 ; Align 990177 40 55 ; Align 999967 95 291
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg7337_len=94715	exonerate:est2genome	gene	68907	69409	2464	-	.	gene_id 1 ; sequence GAUT01000030.1 ; gene_orientation . ; identity 99.40 ; similarity 99.40
+ctg7337_len=94715	exonerate:est2genome	exon	68907	69409	.	-	.	insertions 0 ; deletions 2 ; identity 99.40 ; similarity 99.40
+ctg7337_len=94715	exonerate:est2genome	similarity	68907	69409	2464	-	.	alignment_id 1 ; Query GAUT01000030.1 ; Align 69410 1 209 ; Align 69201 211 136 ; Align 69065 348 158
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg714_len=227567	exonerate:est2genome	gene	40802	41322	2521	+	.	gene_id 1 ; sequence GAUT01000244.1 ; gene_orientation . ; identity 99.81 ; similarity 99.81
+ctg714_len=227567	exonerate:est2genome	exon	40802	41322	.	+	.	insertions 3 ; deletions 2 ; identity 99.81 ; similarity 99.81
+ctg714_len=227567	exonerate:est2genome	similarity	40802	41322	2521	+	.	alignment_id 1 ; Query GAUT01000244.1 ; Align 40802 1 137 ; Align 40940 138 2 ; Align 40943 140 291 ; Align 41234 432 10 ; Align 41244 443 55 ; Align 41300 498 23
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg665_len=229312	exonerate:est2genome	gene	128459	130104	3095	-	.	gene_id 1 ; sequence GAUT01000126.1 ; gene_orientation + ; identity 99.69 ; similarity 99.69
+ctg665_len=229312	exonerate:est2genome	utr5	130049	130104	.	-	.	
+ctg665_len=229312	exonerate:est2genome	exon	130049	130104	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg665_len=229312	exonerate:est2genome	splice5	130047	130048	.	-	.	intron_id 1 ; splice_site "GT"
+ctg665_len=229312	exonerate:est2genome	intron	129469	130048	.	-	.	intron_id 1
+ctg665_len=229312	exonerate:est2genome	splice3	129469	129470	.	-	.	intron_id 0 ; splice_site "AG"
+ctg665_len=229312	exonerate:est2genome	utr5	128974	129468	.	-	.	
+ctg665_len=229312	exonerate:est2genome	exon	128974	129468	.	-	.	insertions 0 ; deletions 4 ; identity 99.80 ; similarity 99.80
+ctg665_len=229312	exonerate:est2genome	splice5	128972	128973	.	-	.	intron_id 2 ; splice_site "GT"
+ctg665_len=229312	exonerate:est2genome	intron	128544	128973	.	-	.	intron_id 2
+ctg665_len=229312	exonerate:est2genome	splice3	128544	128545	.	-	.	intron_id 1 ; splice_site "AG"
+ctg665_len=229312	exonerate:est2genome	exon	128459	128543	.	-	.	insertions 0 ; deletions 0 ; identity 98.82 ; similarity 98.82
+ctg665_len=229312	exonerate:est2genome	similarity	128459	130104	3095	-	.	alignment_id 1 ; Query GAUT01000126.1 ; Align 130105 1 56 ; Align 129469 57 154 ; Align 129315 213 272 ; Align 129043 486 5 ; Align 129038 492 64 ; Align 128544 556 85
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg658_len=382792	exonerate:est2genome	gene	252779	253135	1740	+	.	gene_id 1 ; sequence GAUT01001022.1 ; gene_orientation . ; identity 99.72 ; similarity 99.72
+ctg658_len=382792	exonerate:est2genome	exon	252779	253135	.	+	.	insertions 0 ; deletions 3 ; identity 99.72 ; similarity 99.72
+ctg658_len=382792	exonerate:est2genome	similarity	252779	253135	1740	+	.	alignment_id 1 ; Query GAUT01001022.1 ; Align 252779 1 140 ; Align 252919 142 2 ; Align 252921 145 87 ; Align 253008 233 128
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg621_len=305498	exonerate:est2genome	gene	85118	85444	1608	-	.	gene_id 1 ; sequence GAUT01001313.1 ; gene_orientation . ; identity 99.08 ; similarity 99.08
+ctg621_len=305498	exonerate:est2genome	exon	85118	85444	.	-	.	insertions 0 ; deletions 0 ; identity 99.08 ; similarity 99.08
+ctg621_len=305498	exonerate:est2genome	similarity	85118	85444	1608	-	.	alignment_id 1 ; Query GAUT01001313.1 ; Align 85445 1 327
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg601_len=569834	exonerate:est2genome	gene	399317	399620	1452	-	.	gene_id 1 ; sequence GAUT01001021.1 ; gene_orientation . ; identity 99.01 ; similarity 99.01
+ctg601_len=569834	exonerate:est2genome	exon	399317	399620	.	-	.	insertions 1 ; deletions 2 ; identity 99.01 ; similarity 99.01
+ctg601_len=569834	exonerate:est2genome	similarity	399317	399620	1452	-	.	alignment_id 1 ; Query GAUT01001021.1 ; Align 399621 1 16 ; Align 399605 18 94 ; Align 399511 113 53 ; Align 399457 166 140
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg5_len=748737	exonerate:est2genome	gene	572107	582188	2072	-	.	gene_id 1 ; sequence GAUT01000670.1 ; gene_orientation - ; identity 99.31 ; similarity 99.31
+ctg5_len=748737	exonerate:est2genome	utr5	582012	582188	.	-	.	
+ctg5_len=748737	exonerate:est2genome	exon	582012	582188	.	-	.	insertions 0 ; deletions 0 ; identity 99.44 ; similarity 99.44
+ctg5_len=748737	exonerate:est2genome	splice3	582010	582011	.	-	.	intron_id -1 ; splice_site "CT"
+ctg5_len=748737	exonerate:est2genome	splice5	572364	572365	.	-	.	intron_id 1 ; splice_site "AC"
+ctg5_len=748737	exonerate:est2genome	exon	572107	572363	.	-	.	insertions 2 ; deletions 2 ; identity 99.22 ; similarity 99.22
+ctg5_len=748737	exonerate:est2genome	similarity	572107	582188	2072	-	.	alignment_id 1 ; Query GAUT01000670.1 ; Align 582189 1 177 ; Align 572364 178 1 ; Align 572362 179 60 ; Align 572302 240 144 ; Align 572157 384 29 ; Align 572128 414 21
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg59_len=733720	exonerate:est2genome	gene	545598	545909	1539	+	.	gene_id 1 ; sequence GAUT01000849.1 ; gene_orientation . ; identity 99.68 ; similarity 99.68
+ctg59_len=733720	exonerate:est2genome	exon	545598	545909	.	+	.	insertions 0 ; deletions 1 ; identity 99.68 ; similarity 99.68
+ctg59_len=733720	exonerate:est2genome	similarity	545598	545909	1539	+	.	alignment_id 1 ; Query GAUT01000849.1 ; Align 545598 1 30 ; Align 545628 32 282
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg58_len=480358	exonerate:est2genome	gene	387916	388522	2947	-	.	gene_id 1 ; sequence GAUT01001126.1 ; gene_orientation . ; identity 99.67 ; similarity 99.67
+ctg58_len=480358	exonerate:est2genome	exon	387916	388522	.	-	.	insertions 2 ; deletions 3 ; identity 99.67 ; similarity 99.67
+ctg58_len=480358	exonerate:est2genome	similarity	387916	388522	2947	-	.	alignment_id 1 ; Query GAUT01001126.1 ; Align 388523 1 97 ; Align 388425 98 4 ; Align 388420 102 39 ; Align 388381 142 7 ; Align 388374 150 330 ; Align 388044 481 128
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg5893_len=48019	exonerate:est2genome	gene	8015	8321	1497	-	.	gene_id 1 ; sequence GAUT01000079.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg5893_len=48019	exonerate:est2genome	exon	8015	8321	.	-	.	insertions 2 ; deletions 1 ; identity 100.00 ; similarity 100.00
+ctg5893_len=48019	exonerate:est2genome	similarity	8015	8321	1497	-	.	alignment_id 1 ; Query GAUT01000079.1 ; Align 8322 1 61 ; Align 8261 63 52 ; Align 8207 115 192
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg584_len=441596	exonerate:est2genome	gene	58410	58763	1719	-	.	gene_id 1 ; sequence GAUT01001337.1 ; gene_orientation . ; identity 99.15 ; similarity 99.15
+ctg584_len=441596	exonerate:est2genome	exon	58410	58763	.	-	.	insertions 0 ; deletions 2 ; identity 99.15 ; similarity 99.15
+ctg584_len=441596	exonerate:est2genome	similarity	58410	58763	1719	-	.	alignment_id 1 ; Query GAUT01001337.1 ; Align 58764 1 161 ; Align 58603 163 37 ; Align 58566 201 156
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg582_len=503641	exonerate:est2genome	gene	243995	244315	1548	-	.	gene_id 1 ; sequence GAUT01001332.1 ; gene_orientation . ; identity 99.69 ; similarity 99.69
+ctg582_len=503641	exonerate:est2genome	exon	243995	244315	.	-	.	insertions 0 ; deletions 4 ; identity 99.69 ; similarity 99.69
+ctg582_len=503641	exonerate:est2genome	similarity	243995	244315	1548	-	.	alignment_id 1 ; Query GAUT01001332.1 ; Align 244316 1 142 ; Align 244174 144 116 ; Align 244058 261 3 ; Align 244055 265 26 ; Align 244029 292 34
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg550_len=270805	exonerate:est2genome	gene	17223	17833	2965	+	.	gene_id 1 ; sequence GAUT01000615.1 ; gene_orientation . ; identity 99.51 ; similarity 99.51
+ctg550_len=270805	exonerate:est2genome	exon	17223	17833	.	+	.	insertions 3 ; deletions 1 ; identity 99.51 ; similarity 99.51
+ctg550_len=270805	exonerate:est2genome	similarity	17223	17833	2965	+	.	alignment_id 1 ; Query GAUT01000615.1 ; Align 17223 1 237 ; Align 17461 238 4 ; Align 17466 242 288 ; Align 17755 530 8 ; Align 17763 539 71
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg5119_len=187279	exonerate:est2genome	gene	179281	179698	2009	+	.	gene_id 1 ; sequence GAUT01000477.1 ; gene_orientation . ; identity 99.52 ; similarity 99.52
+ctg5119_len=187279	exonerate:est2genome	exon	179281	179698	.	+	.	insertions 3 ; deletions 1 ; identity 99.52 ; similarity 99.52
+ctg5119_len=187279	exonerate:est2genome	similarity	179281	179698	2009	+	.	alignment_id 1 ; Query GAUT01000477.1 ; Align 179281 1 14 ; Align 179296 15 45 ; Align 179342 60 273 ; Align 179616 333 8 ; Align 179624 342 75
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg50_len=483522	exonerate:est2genome	gene	178089	178764	3263	+	.	gene_id 1 ; sequence GAUT01000796.1 ; gene_orientation . ; identity 98.67 ; similarity 98.67
+ctg50_len=483522	exonerate:est2genome	exon	178089	178764	.	+	.	insertions 0 ; deletions 3 ; identity 98.67 ; similarity 98.67
+ctg50_len=483522	exonerate:est2genome	similarity	178089	178764	3263	+	.	alignment_id 1 ; Query GAUT01000796.1 ; Align 178089 1 257 ; Align 178346 259 2 ; Align 178348 262 246 ; Align 178594 509 171
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg462_len=394429	exonerate:est2genome	gene	294133	294506	1831	-	.	gene_id 1 ; sequence GAUT01000040.1 ; gene_orientation . ; identity 99.20 ; similarity 99.20
+ctg462_len=394429	exonerate:est2genome	exon	294133	294506	.	-	.	insertions 0 ; deletions 1 ; identity 99.20 ; similarity 99.20
+ctg462_len=394429	exonerate:est2genome	similarity	294133	294506	1831	-	.	alignment_id 1 ; Query GAUT01000040.1 ; Align 294507 1 329 ; Align 294178 331 45
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg460_len=261853	exonerate:est2genome	gene	80176	80517	1701	-	.	gene_id 1 ; sequence GAUT01001199.1 ; gene_orientation . ; identity 99.71 ; similarity 99.71
+ctg460_len=261853	exonerate:est2genome	exon	80176	80517	.	-	.	insertions 0 ; deletions 0 ; identity 99.71 ; similarity 99.71
+ctg460_len=261853	exonerate:est2genome	similarity	80176	80517	1701	-	.	alignment_id 1 ; Query GAUT01001199.1 ; Align 80518 1 342
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg45_len=610137	exonerate:est2genome	gene	236102	236691	2815	-	.	gene_id 1 ; sequence GAUT01000793.1 ; gene_orientation . ; identity 99.32 ; similarity 99.32
+ctg45_len=610137	exonerate:est2genome	exon	236102	236691	.	-	.	insertions 3 ; deletions 4 ; identity 99.32 ; similarity 99.32
+ctg45_len=610137	exonerate:est2genome	similarity	236102	236691	2815	-	.	alignment_id 1 ; Query GAUT01000793.1 ; Align 236692 1 12 ; Align 236680 14 6 ; Align 236673 20 10 ; Align 236663 31 408 ; Align 236255 440 105 ; Align 236149 545 15 ; Align 236133 560 21 ; Align 236112 582 10
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg4269_len=112392	exonerate:est2genome	gene	62986	63785	1662	-	.	gene_id 1 ; sequence GAUT01000125.1 ; gene_orientation + ; identity 100.00 ; similarity 100.00
+ctg4269_len=112392	exonerate:est2genome	utr5	63604	63785	.	-	.	
+ctg4269_len=112392	exonerate:est2genome	exon	63604	63785	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg4269_len=112392	exonerate:est2genome	splice5	63602	63603	.	-	.	intron_id 1 ; splice_site "GT"
+ctg4269_len=112392	exonerate:est2genome	intron	63139	63603	.	-	.	intron_id 1
+ctg4269_len=112392	exonerate:est2genome	splice3	63139	63140	.	-	.	intron_id 0 ; splice_site "AG"
+ctg4269_len=112392	exonerate:est2genome	exon	62986	63138	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg4269_len=112392	exonerate:est2genome	similarity	62986	63785	1662	-	.	alignment_id 1 ; Query GAUT01000125.1 ; Align 63786 1 182 ; Align 63139 183 153
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg423_len=268411	exonerate:est2genome	gene	95456	99230	2349	-	.	gene_id 1 ; sequence GAUT01001250.1 ; gene_orientation - ; identity 99.79 ; similarity 99.79
+ctg423_len=268411	exonerate:est2genome	utr5	99105	99230	.	-	.	
+ctg423_len=268411	exonerate:est2genome	exon	99105	99230	.	-	.	insertions 0 ; deletions 0 ; identity 99.21 ; similarity 99.21
+ctg423_len=268411	exonerate:est2genome	splice3	99103	99104	.	-	.	intron_id -1 ; splice_site "CG"
+ctg423_len=268411	exonerate:est2genome	splice5	98372	98373	.	-	.	intron_id 1 ; splice_site "AC"
+ctg423_len=268411	exonerate:est2genome	utr5	98227	98371	.	-	.	
+ctg423_len=268411	exonerate:est2genome	exon	98227	98371	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg423_len=268411	exonerate:est2genome	splice3	98225	98226	.	-	.	intron_id -1 ; splice_site "CT"
+ctg423_len=268411	exonerate:est2genome	splice5	97152	97153	.	-	.	intron_id 1 ; splice_site "AC"
+ctg423_len=268411	exonerate:est2genome	utr5	96994	97151	.	-	.	
+ctg423_len=268411	exonerate:est2genome	exon	96994	97151	.	-	.	insertions 2 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg423_len=268411	exonerate:est2genome	splice3	96992	96993	.	-	.	intron_id -1 ; splice_site "CT"
+ctg423_len=268411	exonerate:est2genome	splice5	95515	95516	.	-	.	intron_id 1 ; splice_site "AC"
+ctg423_len=268411	exonerate:est2genome	exon	95456	95514	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg423_len=268411	exonerate:est2genome	similarity	95456	99230	2349	-	.	alignment_id 1 ; Query GAUT01001250.1 ; Align 99231 1 126 ; Align 98372 127 145 ; Align 97152 272 134 ; Align 97017 406 4 ; Align 97012 410 18 ; Align 95515 428 59
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg420_len=617910	exonerate:est2genome	gene	579867	580240	1822	-	.	gene_id 1 ; sequence GAUT01000034.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg420_len=617910	exonerate:est2genome	exon	579867	580240	.	-	.	insertions 0 ; deletions 4 ; identity 100.00 ; similarity 100.00
+ctg420_len=617910	exonerate:est2genome	similarity	579867	580240	1822	-	.	alignment_id 1 ; Query GAUT01000034.1 ; Align 580241 1 19 ; Align 580222 21 141 ; Align 580081 163 43 ; Align 580038 207 143 ; Align 579895 351 28
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg411_len=474935	exonerate:est2genome	gene	128471	128801	1604	-	.	gene_id 1 ; sequence GAUT01000220.1 ; gene_orientation . ; identity 99.09 ; similarity 99.09
+ctg411_len=474935	exonerate:est2genome	exon	128471	128801	.	-	.	insertions 0 ; deletions 2 ; identity 99.09 ; similarity 99.09
+ctg411_len=474935	exonerate:est2genome	similarity	128471	128801	1604	-	.	alignment_id 1 ; Query GAUT01000220.1 ; Align 128802 1 19 ; Align 128783 21 277 ; Align 128506 299 35
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg4024_len=77082	exonerate:est2genome	gene	32257	32651	1922	+	.	gene_id 1 ; sequence GAUT01000348.1 ; gene_orientation . ; identity 98.98 ; similarity 98.98
+ctg4024_len=77082	exonerate:est2genome	exon	32257	32651	.	+	.	insertions 1 ; deletions 0 ; identity 98.98 ; similarity 98.98
+ctg4024_len=77082	exonerate:est2genome	similarity	32257	32651	1922	+	.	alignment_id 1 ; Query GAUT01000348.1 ; Align 32257 1 81 ; Align 32339 82 313
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg3811_len=213168	exonerate:est2genome	gene	67501	67810	1523	-	.	gene_id 1 ; sequence GAUT01000895.1 ; gene_orientation . ; identity 99.03 ; similarity 99.03
+ctg3811_len=213168	exonerate:est2genome	exon	67501	67810	.	-	.	insertions 0 ; deletions 0 ; identity 99.03 ; similarity 99.03
+ctg3811_len=213168	exonerate:est2genome	similarity	67501	67810	1523	-	.	alignment_id 1 ; Query GAUT01000895.1 ; Align 67811 1 310
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg351_len=683694	exonerate:est2genome	gene	345740	346225	2364	-	.	gene_id 1 ; sequence GAUT01001197.1 ; gene_orientation . ; identity 98.77 ; similarity 98.77
+ctg351_len=683694	exonerate:est2genome	exon	345740	346225	.	-	.	insertions 0 ; deletions 1 ; identity 98.77 ; similarity 98.77
+ctg351_len=683694	exonerate:est2genome	similarity	345740	346225	2364	-	.	alignment_id 1 ; Query GAUT01001197.1 ; Align 346226 1 14 ; Align 346212 16 472
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg346_len=466750	exonerate:est2genome	gene	51071	51482	2042	+	.	gene_id 1 ; sequence GAUT01000660.1 ; gene_orientation . ; identity 99.51 ; similarity 99.51
+ctg346_len=466750	exonerate:est2genome	exon	51071	51482	.	+	.	insertions 0 ; deletions 0 ; identity 99.51 ; similarity 99.51
+ctg346_len=466750	exonerate:est2genome	similarity	51071	51482	2042	+	.	alignment_id 1 ; Query GAUT01000660.1 ; Align 51071 1 412
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg3264_len=247409	exonerate:est2genome	gene	143388	143727	1691	-	.	gene_id 1 ; sequence GAUT01001049.1 ; gene_orientation . ; identity 99.71 ; similarity 99.71
+ctg3264_len=247409	exonerate:est2genome	exon	143388	143727	.	-	.	insertions 0 ; deletions 0 ; identity 99.71 ; similarity 99.71
+ctg3264_len=247409	exonerate:est2genome	similarity	143388	143727	1691	-	.	alignment_id 1 ; Query GAUT01001049.1 ; Align 143728 1 340
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg31_len=760598	exonerate:est2genome	gene	609016	609558	2677	-	.	gene_id 1 ; sequence GAUT01000322.1 ; gene_orientation . ; identity 99.82 ; similarity 99.82
+ctg31_len=760598	exonerate:est2genome	exon	609016	609558	.	-	.	insertions 1 ; deletions 1 ; identity 99.82 ; similarity 99.82
+ctg31_len=760598	exonerate:est2genome	similarity	609016	609558	2677	-	.	alignment_id 1 ; Query GAUT01000322.1 ; Align 609559 1 171 ; Align 609388 173 224 ; Align 609163 397 147
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg3133_len=320382	exonerate:est2genome	gene	161764	171351	1651	+	.	gene_id 1 ; sequence GAUT01001205.1 ; gene_orientation + ; identity 100.00 ; similarity 100.00
+ctg3133_len=320382	exonerate:est2genome	utr5	161764	161850	.	+	.	
+ctg3133_len=320382	exonerate:est2genome	exon	161764	161850	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg3133_len=320382	exonerate:est2genome	splice5	161851	161852	.	+	.	intron_id 1 ; splice_site "GT"
+ctg3133_len=320382	exonerate:est2genome	intron	161851	167053	.	+	.	intron_id 1
+ctg3133_len=320382	exonerate:est2genome	splice3	167052	167053	.	+	.	intron_id 0 ; splice_site "AG"
+ctg3133_len=320382	exonerate:est2genome	utr5	167054	167261	.	+	.	
+ctg3133_len=320382	exonerate:est2genome	exon	167054	167261	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg3133_len=320382	exonerate:est2genome	splice5	167262	167263	.	+	.	intron_id 2 ; splice_site "GT"
+ctg3133_len=320382	exonerate:est2genome	intron	167262	171309	.	+	.	intron_id 2
+ctg3133_len=320382	exonerate:est2genome	splice3	171308	171309	.	+	.	intron_id 1 ; splice_site "AG"
+ctg3133_len=320382	exonerate:est2genome	exon	171310	171351	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg3133_len=320382	exonerate:est2genome	similarity	161764	171351	1651	+	.	alignment_id 1 ; Query GAUT01001205.1 ; Align 161764 1 87 ; Align 167054 88 208 ; Align 171310 296 42
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg3112_len=103198	exonerate:est2genome	gene	13166	13810	3132	+	.	gene_id 1 ; sequence GAUT01000323.1 ; gene_orientation . ; identity 99.22 ; similarity 99.22
+ctg3112_len=103198	exonerate:est2genome	exon	13166	13810	.	+	.	insertions 0 ; deletions 4 ; identity 99.22 ; similarity 99.22
+ctg3112_len=103198	exonerate:est2genome	similarity	13166	13810	3132	+	.	alignment_id 1 ; Query GAUT01000323.1 ; Align 13166 1 7 ; Align 13173 9 40 ; Align 13213 50 493 ; Align 13706 544 43 ; Align 13749 588 62
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2_len=1290452	exonerate:est2genome	gene	738872	741528	1473	-	.	gene_id 1 ; sequence GAUT01001171.1 ; gene_orientation - ; identity 99.67 ; similarity 99.67
+ctg2_len=1290452	exonerate:est2genome	utr5	741506	741528	.	-	.	
+ctg2_len=1290452	exonerate:est2genome	exon	741506	741528	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg2_len=1290452	exonerate:est2genome	splice3	741504	741505	.	-	.	intron_id -1 ; splice_site "CT"
+ctg2_len=1290452	exonerate:est2genome	splice5	740402	740403	.	-	.	intron_id 1 ; splice_site "AC"
+ctg2_len=1290452	exonerate:est2genome	utr5	740261	740401	.	-	.	
+ctg2_len=1290452	exonerate:est2genome	exon	740261	740401	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg2_len=1290452	exonerate:est2genome	splice3	740259	740260	.	-	.	intron_id -1 ; splice_site "CT"
+ctg2_len=1290452	exonerate:est2genome	splice5	739009	739010	.	-	.	intron_id 1 ; splice_site "AC"
+ctg2_len=1290452	exonerate:est2genome	exon	738872	739008	.	-	.	insertions 0 ; deletions 0 ; identity 99.27 ; similarity 99.27
+ctg2_len=1290452	exonerate:est2genome	similarity	738872	741528	1473	-	.	alignment_id 1 ; Query GAUT01001171.1 ; Align 741529 1 23 ; Align 740402 24 141 ; Align 739009 165 137
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg289_len=694490	exonerate:est2genome	gene	504526	504893	1807	-	.	gene_id 1 ; sequence GAUT01000915.1 ; gene_orientation . ; identity 99.73 ; similarity 99.73
+ctg289_len=694490	exonerate:est2genome	exon	504526	504893	.	-	.	insertions 0 ; deletions 2 ; identity 99.73 ; similarity 99.73
+ctg289_len=694490	exonerate:est2genome	similarity	504526	504893	1807	-	.	alignment_id 1 ; Query GAUT01000915.1 ; Align 504894 1 70 ; Align 504824 72 150 ; Align 504674 223 148
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2883_len=100563	exonerate:est2genome	gene	89821	90383	2698	+	.	gene_id 1 ; sequence GAUT01000154.1 ; gene_orientation . ; identity 98.93 ; similarity 98.93
+ctg2883_len=100563	exonerate:est2genome	exon	89821	90383	.	+	.	insertions 3 ; deletions 1 ; identity 98.93 ; similarity 98.93
+ctg2883_len=100563	exonerate:est2genome	similarity	89821	90383	2698	+	.	alignment_id 1 ; Query GAUT01000154.1 ; Align 89821 2 4 ; Align 89826 6 8 ; Align 89835 14 203 ; Align 90039 217 37 ; Align 90076 255 308
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2739_len=221420	exonerate:est2genome	gene	139664	139976	1517	+	.	gene_id 1 ; sequence GAUT01000543.1 ; gene_orientation . ; identity 98.72 ; similarity 98.72
+ctg2739_len=221420	exonerate:est2genome	exon	139664	139976	.	+	.	insertions 0 ; deletions 1 ; identity 98.72 ; similarity 98.72
+ctg2739_len=221420	exonerate:est2genome	similarity	139664	139976	1517	+	.	alignment_id 1 ; Query GAUT01000543.1 ; Align 139664 1 242 ; Align 139906 244 71
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2702_len=161235	exonerate:est2genome	gene	70431	70988	2740	-	.	gene_id 1 ; sequence GAUT01000550.1 ; gene_orientation . ; identity 99.82 ; similarity 99.82
+ctg2702_len=161235	exonerate:est2genome	exon	70431	70988	.	-	.	insertions 1 ; deletions 2 ; identity 99.82 ; similarity 99.82
+ctg2702_len=161235	exonerate:est2genome	similarity	70431	70988	2740	-	.	alignment_id 1 ; Query GAUT01000550.1 ; Align 70989 1 24 ; Align 70964 25 374 ; Align 70590 400 106 ; Align 70484 507 53
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg263_len=947205	exonerate:est2genome	gene	776763	777292	2543	-	.	gene_id 1 ; sequence GAUT01000329.1 ; gene_orientation . ; identity 99.62 ; similarity 99.62
+ctg263_len=947205	exonerate:est2genome	exon	776763	777292	.	-	.	insertions 5 ; deletions 3 ; identity 99.62 ; similarity 99.62
+ctg263_len=947205	exonerate:est2genome	similarity	776763	777292	2543	-	.	alignment_id 1 ; Query GAUT01000329.1 ; Align 777293 1 166 ; Align 777127 168 5 ; Align 777117 173 218 ; Align 776899 392 10 ; Align 776889 403 126
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg263_len=947205	exonerate:est2genome	gene	777705	778578	3611	-	.	gene_id 1 ; sequence GAUT01000242.1 ; gene_orientation + ; identity 98.93 ; similarity 98.93
+ctg263_len=947205	exonerate:est2genome	utr5	777970	778578	.	-	.	
+ctg263_len=947205	exonerate:est2genome	exon	777970	778578	.	-	.	insertions 0 ; deletions 2 ; identity 98.69 ; similarity 98.69
+ctg263_len=947205	exonerate:est2genome	splice5	777968	777969	.	-	.	intron_id 1 ; splice_site "TA"
+ctg263_len=947205	exonerate:est2genome	intron	777845	777969	.	-	.	intron_id 1
+ctg263_len=947205	exonerate:est2genome	splice3	777845	777846	.	-	.	intron_id 0 ; splice_site "AG"
+ctg263_len=947205	exonerate:est2genome	exon	777705	777844	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg263_len=947205	exonerate:est2genome	similarity	777705	778578	3611	-	.	alignment_id 1 ; Query GAUT01000242.1 ; Align 778579 1 216 ; Align 778363 218 167 ; Align 778196 386 226 ; Align 777845 612 140
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2603_len=329509	exonerate:est2genome	gene	235637	235955	1550	+	.	gene_id 1 ; sequence GAUT01001195.1 ; gene_orientation . ; identity 99.69 ; similarity 99.69
+ctg2603_len=329509	exonerate:est2genome	exon	235637	235955	.	+	.	insertions 0 ; deletions 3 ; identity 99.69 ; similarity 99.69
+ctg2603_len=329509	exonerate:est2genome	similarity	235637	235955	1550	+	.	alignment_id 1 ; Query GAUT01001195.1 ; Align 235637 1 85 ; Align 235722 87 90 ; Align 235812 178 125 ; Align 235937 304 19
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg258_len=1577589	exonerate:est2genome	gene	1078575	1079019	2125	-	.	gene_id 1 ; sequence GAUT01001303.1 ; gene_orientation . ; identity 99.32 ; similarity 99.32
+ctg258_len=1577589	exonerate:est2genome	exon	1078575	1079019	.	-	.	insertions 5 ; deletions 1 ; identity 99.32 ; similarity 99.32
+ctg258_len=1577589	exonerate:est2genome	similarity	1078575	1079019	2125	-	.	alignment_id 1 ; Query GAUT01001303.1 ; Align 1079020 1 171 ; Align 1078849 173 33 ; Align 1078814 206 203 ; Align 1078608 409 33
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2583_len=117603	exonerate:est2genome	gene	64953	65427	2319	+	.	gene_id 1 ; sequence GAUT01000250.1 ; gene_orientation . ; identity 99.37 ; similarity 99.37
+ctg2583_len=117603	exonerate:est2genome	exon	64953	65427	.	+	.	insertions 1 ; deletions 1 ; identity 99.37 ; similarity 99.37
+ctg2583_len=117603	exonerate:est2genome	similarity	64953	65427	2319	+	.	alignment_id 1 ; Query GAUT01000250.1 ; Align 64953 1 307 ; Align 65260 309 93 ; Align 65354 402 74
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg254_len=397785	exonerate:est2genome	gene	187861	190412	1617	+	.	gene_id 1 ; sequence GAUT01000277.1 ; gene_orientation + ; identity 100.00 ; similarity 100.00
+ctg254_len=397785	exonerate:est2genome	utr5	187861	187903	.	+	.	
+ctg254_len=397785	exonerate:est2genome	exon	187861	187903	.	+	.	insertions 1 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg254_len=397785	exonerate:est2genome	splice5	187904	187905	.	+	.	intron_id 1 ; splice_site "GT"
+ctg254_len=397785	exonerate:est2genome	intron	187904	190124	.	+	.	intron_id 1
+ctg254_len=397785	exonerate:est2genome	splice3	190123	190124	.	+	.	intron_id 0 ; splice_site "AG"
+ctg254_len=397785	exonerate:est2genome	exon	190125	190412	.	+	.	insertions 0 ; deletions 1 ; identity 100.00 ; similarity 100.00
+ctg254_len=397785	exonerate:est2genome	similarity	187861	190412	1617	+	.	alignment_id 1 ; Query GAUT01000277.1 ; Align 187861 1 3 ; Align 187865 4 39 ; Align 190125 43 91 ; Align 190216 135 197
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2539_len=110249	exonerate:est2genome	gene	56737	57140	1627	+	.	gene_id 1 ; sequence GAUT01001229.1 ; gene_orientation - ; identity 100.00 ; similarity 100.00
+ctg2539_len=110249	exonerate:est2genome	utr5	56737	56844	.	+	.	
+ctg2539_len=110249	exonerate:est2genome	exon	56737	56844	.	+	.	insertions 3 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg2539_len=110249	exonerate:est2genome	splice3	56845	56846	.	+	.	intron_id -1 ; splice_site "CA"
+ctg2539_len=110249	exonerate:est2genome	splice5	56904	56905	.	+	.	intron_id 1 ; splice_site "AA"
+ctg2539_len=110249	exonerate:est2genome	exon	56906	57140	.	+	.	insertions 0 ; deletions 1 ; identity 100.00 ; similarity 100.00
+ctg2539_len=110249	exonerate:est2genome	similarity	56737	57140	1627	+	.	alignment_id 1 ; Query GAUT01001229.1 ; Align 56737 1 43 ; Align 56781 44 7 ; Align 56790 51 55 ; Align 56906 106 48 ; Align 56954 155 187
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2511_len=115221	exonerate:est2genome	gene	89776	91506	2371	-	.	gene_id 1 ; sequence GAUT01000900.1 ; gene_orientation + ; identity 99.79 ; similarity 99.79
+ctg2511_len=115221	exonerate:est2genome	utr5	91397	91506	.	-	.	
+ctg2511_len=115221	exonerate:est2genome	exon	91397	91506	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg2511_len=115221	exonerate:est2genome	splice5	91395	91396	.	-	.	intron_id 1 ; splice_site "GT"
+ctg2511_len=115221	exonerate:est2genome	intron	90959	91396	.	-	.	intron_id 1
+ctg2511_len=115221	exonerate:est2genome	splice3	90959	90960	.	-	.	intron_id 0 ; splice_site "AG"
+ctg2511_len=115221	exonerate:est2genome	utr5	90734	90958	.	-	.	
+ctg2511_len=115221	exonerate:est2genome	exon	90734	90958	.	-	.	insertions 1 ; deletions 1 ; identity 100.00 ; similarity 100.00
+ctg2511_len=115221	exonerate:est2genome	splice5	90732	90733	.	-	.	intron_id 2 ; splice_site "GT"
+ctg2511_len=115221	exonerate:est2genome	intron	89926	90733	.	-	.	intron_id 2
+ctg2511_len=115221	exonerate:est2genome	splice3	89926	89927	.	-	.	intron_id 1 ; splice_site "AG"
+ctg2511_len=115221	exonerate:est2genome	exon	89776	89925	.	-	.	insertions 0 ; deletions 0 ; identity 99.33 ; similarity 99.33
+ctg2511_len=115221	exonerate:est2genome	similarity	89776	91506	2371	-	.	alignment_id 1 ; Query GAUT01000900.1 ; Align 91507 1 110 ; Align 90959 111 36 ; Align 90923 148 129 ; Align 90793 277 59 ; Align 89926 336 150
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2468_len=311985	exonerate:est2genome	gene	126520	126926	1928	+	.	gene_id 1 ; sequence GAUT01000141.1 ; gene_orientation . ; identity 99.75 ; similarity 99.75
+ctg2468_len=311985	exonerate:est2genome	exon	126520	126926	.	+	.	insertions 6 ; deletions 1 ; identity 99.75 ; similarity 99.75
+ctg2468_len=311985	exonerate:est2genome	similarity	126520	126926	1928	+	.	alignment_id 1 ; Query GAUT01000141.1 ; Align 126520 1 37 ; Align 126560 38 114 ; Align 126674 153 7 ; Align 126682 160 226 ; Align 126909 386 7 ; Align 126917 393 10
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2409_len=152873	exonerate:est2genome	gene	69206	69521	1504	+	.	gene_id 1 ; sequence GAUT01000861.1 ; gene_orientation . ; identity 99.36 ; similarity 99.36
+ctg2409_len=152873	exonerate:est2genome	exon	69206	69521	.	+	.	insertions 2 ; deletions 2 ; identity 99.36 ; similarity 99.36
+ctg2409_len=152873	exonerate:est2genome	similarity	69206	69521	1504	+	.	alignment_id 1 ; Query GAUT01000861.1 ; Align 69206 1 57 ; Align 69264 58 16 ; Align 69281 74 46 ; Align 69327 121 18 ; Align 69345 140 177
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2396_len=244125	exonerate:est2genome	gene	93515	93926	2027	-	.	gene_id 1 ; sequence GAUT01000841.1 ; gene_orientation . ; identity 99.76 ; similarity 99.76
+ctg2396_len=244125	exonerate:est2genome	exon	93515	93926	.	-	.	insertions 0 ; deletions 2 ; identity 99.76 ; similarity 99.76
+ctg2396_len=244125	exonerate:est2genome	similarity	93515	93926	2027	-	.	alignment_id 1 ; Query GAUT01000841.1 ; Align 93927 1 6 ; Align 93921 8 4 ; Align 93917 13 402
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2395_len=117308	exonerate:est2genome	gene	33728	37947	1784	+	.	gene_id 1 ; sequence GAUT01000495.1 ; gene_orientation - ; identity 99.45 ; similarity 99.45
+ctg2395_len=117308	exonerate:est2genome	utr5	33728	33876	.	+	.	
+ctg2395_len=117308	exonerate:est2genome	exon	33728	33876	.	+	.	insertions 0 ; deletions 0 ; identity 99.33 ; similarity 99.33
+ctg2395_len=117308	exonerate:est2genome	splice3	33877	33878	.	+	.	intron_id -1 ; splice_site "CT"
+ctg2395_len=117308	exonerate:est2genome	splice5	37728	37729	.	+	.	intron_id 1 ; splice_site "AC"
+ctg2395_len=117308	exonerate:est2genome	exon	37730	37947	.	+	.	insertions 1 ; deletions 0 ; identity 99.54 ; similarity 99.54
+ctg2395_len=117308	exonerate:est2genome	similarity	33728	37947	1784	+	.	alignment_id 1 ; Query GAUT01000495.1 ; Align 33728 1 149 ; Align 37730 150 200 ; Align 37931 350 17
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2390_len=236654	exonerate:est2genome	gene	128198	128534	1652	+	.	gene_id 1 ; sequence GAUT01000394.1 ; gene_orientation . ; identity 99.70 ; similarity 99.70
+ctg2390_len=236654	exonerate:est2genome	exon	128198	128534	.	+	.	insertions 0 ; deletions 2 ; identity 99.70 ; similarity 99.70
+ctg2390_len=236654	exonerate:est2genome	similarity	128198	128534	1652	+	.	alignment_id 1 ; Query GAUT01000394.1 ; Align 128198 1 248 ; Align 128446 250 40 ; Align 128486 291 49
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2328_len=152325	exonerate:est2genome	gene	92725	93053	1580	-	.	gene_id 1 ; sequence GAUT01000759.1 ; gene_orientation . ; identity 98.78 ; similarity 98.78
+ctg2328_len=152325	exonerate:est2genome	exon	92725	93053	.	-	.	insertions 1 ; deletions 1 ; identity 98.78 ; similarity 98.78
+ctg2328_len=152325	exonerate:est2genome	similarity	92725	93053	1580	-	.	alignment_id 1 ; Query GAUT01000759.1 ; Align 93054 1 136 ; Align 92918 138 74 ; Align 92843 212 118
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2311_len=179840	exonerate:est2genome	gene	75792	76207	2062	-	.	gene_id 1 ; sequence GAUT01001263.1 ; gene_orientation . ; identity 99.52 ; similarity 99.52
+ctg2311_len=179840	exonerate:est2genome	exon	75792	76207	.	-	.	insertions 0 ; deletions 0 ; identity 99.52 ; similarity 99.52
+ctg2311_len=179840	exonerate:est2genome	similarity	75792	76207	2062	-	.	alignment_id 1 ; Query GAUT01001263.1 ; Align 76208 1 416
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2259_len=156180	exonerate:est2genome	gene	124422	124731	1483	-	.	gene_id 1 ; sequence GAUT01000501.1 ; gene_orientation . ; identity 99.68 ; similarity 99.68
+ctg2259_len=156180	exonerate:est2genome	exon	124422	124731	.	-	.	insertions 2 ; deletions 2 ; identity 99.68 ; similarity 99.68
+ctg2259_len=156180	exonerate:est2genome	similarity	124422	124731	1483	-	.	alignment_id 1 ; Query GAUT01000501.1 ; Align 124732 1 10 ; Align 124722 12 81 ; Align 124640 93 122 ; Align 124518 216 9 ; Align 124508 225 86
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2242_len=250307	exonerate:est2genome	gene	197243	197585	1681	-	.	gene_id 1 ; sequence GAUT01000276.1 ; gene_orientation . ; identity 99.42 ; similarity 99.42
+ctg2242_len=250307	exonerate:est2genome	exon	197243	197585	.	-	.	insertions 0 ; deletions 2 ; identity 99.42 ; similarity 99.42
+ctg2242_len=250307	exonerate:est2genome	similarity	197243	197585	1681	-	.	alignment_id 1 ; Query GAUT01000276.1 ; Align 197586 1 220 ; Align 197366 223 123
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2240_len=232748	exonerate:est2genome	gene	47460	47812	1717	-	.	gene_id 1 ; sequence GAUT01001315.1 ; gene_orientation . ; identity 98.87 ; similarity 98.87
+ctg2240_len=232748	exonerate:est2genome	exon	47460	47812	.	-	.	insertions 0 ; deletions 1 ; identity 98.87 ; similarity 98.87
+ctg2240_len=232748	exonerate:est2genome	similarity	47460	47812	1717	-	.	alignment_id 1 ; Query GAUT01001315.1 ; Align 47813 1 138 ; Align 47675 140 215
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2235_len=247044	exonerate:est2genome	gene	23162	23598	2176	-	.	gene_id 1 ; sequence GAUT01000578.1 ; gene_orientation . ; identity 99.77 ; similarity 99.77
+ctg2235_len=247044	exonerate:est2genome	exon	23162	23598	.	-	.	insertions 0 ; deletions 0 ; identity 99.77 ; similarity 99.77
+ctg2235_len=247044	exonerate:est2genome	similarity	23162	23598	2176	-	.	alignment_id 1 ; Query GAUT01000578.1 ; Align 23599 1 437
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2230_len=169241	exonerate:est2genome	gene	108388	108724	1608	+	.	gene_id 1 ; sequence GAUT01000966.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg2230_len=169241	exonerate:est2genome	exon	108388	108724	.	+	.	insertions 5 ; deletions 2 ; identity 100.00 ; similarity 100.00
+ctg2230_len=169241	exonerate:est2genome	similarity	108388	108724	1608	+	.	alignment_id 1 ; Query GAUT01000966.1 ; Align 108388 1 71 ; Align 108464 72 14 ; Align 108478 87 77 ; Align 108555 165 170
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2215_len=134579	exonerate:est2genome	gene	31799	32165	1749	+	.	gene_id 1 ; sequence GAUT01000798.1 ; gene_orientation . ; identity 98.63 ; similarity 98.63
+ctg2215_len=134579	exonerate:est2genome	exon	31799	32165	.	+	.	insertions 1 ; deletions 2 ; identity 98.63 ; similarity 98.63
+ctg2215_len=134579	exonerate:est2genome	similarity	31799	32165	1749	+	.	alignment_id 1 ; Query GAUT01000798.1 ; Align 31799 1 76 ; Align 31875 78 112 ; Align 31988 190 15 ; Align 32003 206 163
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2201_len=140238	exonerate:est2genome	gene	54218	54574	1744	-	.	gene_id 1 ; sequence GAUT01000510.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg2201_len=140238	exonerate:est2genome	exon	54218	54574	.	-	.	insertions 1 ; deletions 2 ; identity 100.00 ; similarity 100.00
+ctg2201_len=140238	exonerate:est2genome	similarity	54218	54574	1744	-	.	alignment_id 1 ; Query GAUT01000510.1 ; Align 54575 1 71 ; Align 54504 73 131 ; Align 54373 205 42 ; Align 54330 247 112
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg219_len=400404	exonerate:est2genome	gene	322771	323089	1544	-	.	gene_id 1 ; sequence GAUT01000952.1 ; gene_orientation . ; identity 99.06 ; similarity 99.06
+ctg219_len=400404	exonerate:est2genome	exon	322771	323089	.	-	.	insertions 0 ; deletions 2 ; identity 99.06 ; similarity 99.06
+ctg219_len=400404	exonerate:est2genome	similarity	322771	323089	1544	-	.	alignment_id 1 ; Query GAUT01000952.1 ; Align 323090 1 117 ; Align 322973 119 62 ; Align 322911 182 140
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg2062_len=330952	exonerate:est2genome	gene	268223	272454	1979	-	.	gene_id 1 ; sequence GAUT01000398.1 ; gene_orientation + ; identity 99.76 ; similarity 99.76
+ctg2062_len=330952	exonerate:est2genome	utr5	272283	272454	.	-	.	
+ctg2062_len=330952	exonerate:est2genome	exon	272283	272454	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg2062_len=330952	exonerate:est2genome	splice5	272281	272282	.	-	.	intron_id 1 ; splice_site "GT"
+ctg2062_len=330952	exonerate:est2genome	intron	271075	272282	.	-	.	intron_id 1
+ctg2062_len=330952	exonerate:est2genome	splice3	271075	271076	.	-	.	intron_id 0 ; splice_site "AG"
+ctg2062_len=330952	exonerate:est2genome	utr5	270999	271074	.	-	.	
+ctg2062_len=330952	exonerate:est2genome	exon	270999	271074	.	-	.	insertions 0 ; deletions 1 ; identity 100.00 ; similarity 100.00
+ctg2062_len=330952	exonerate:est2genome	splice5	270997	270998	.	-	.	intron_id 2 ; splice_site "GT"
+ctg2062_len=330952	exonerate:est2genome	intron	269847	270998	.	-	.	intron_id 2
+ctg2062_len=330952	exonerate:est2genome	splice3	269847	269848	.	-	.	intron_id 1 ; splice_site "AG"
+ctg2062_len=330952	exonerate:est2genome	utr5	269736	269846	.	-	.	
+ctg2062_len=330952	exonerate:est2genome	exon	269736	269846	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg2062_len=330952	exonerate:est2genome	splice5	269734	269735	.	-	.	intron_id 3 ; splice_site "GT"
+ctg2062_len=330952	exonerate:est2genome	intron	268274	269735	.	-	.	intron_id 3
+ctg2062_len=330952	exonerate:est2genome	splice3	268274	268275	.	-	.	intron_id 2 ; splice_site "AG"
+ctg2062_len=330952	exonerate:est2genome	exon	268223	268273	.	-	.	insertions 0 ; deletions 0 ; identity 98.04 ; similarity 98.04
+ctg2062_len=330952	exonerate:est2genome	similarity	268223	272454	1979	-	.	alignment_id 1 ; Query GAUT01000398.1 ; Align 272455 1 172 ; Align 271075 173 27 ; Align 271048 201 49 ; Align 269847 250 111 ; Align 268274 361 51
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg202_len=773605	exonerate:est2genome	gene	613189	613486	1465	-	.	gene_id 1 ; sequence GAUT01001139.1 ; gene_orientation . ; identity 99.66 ; similarity 99.66
+ctg202_len=773605	exonerate:est2genome	exon	613189	613486	.	-	.	insertions 0 ; deletions 2 ; identity 99.66 ; similarity 99.66
+ctg202_len=773605	exonerate:est2genome	similarity	613189	613486	1465	-	.	alignment_id 1 ; Query GAUT01001139.1 ; Align 613487 1 15 ; Align 613472 18 283
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg198_len=584486	exonerate:est2genome	gene	314106	314409	1511	-	.	gene_id 1 ; sequence GAUT01000435.1 ; gene_orientation . ; identity 99.67 ; similarity 99.67
+ctg198_len=584486	exonerate:est2genome	exon	314106	314409	.	-	.	insertions 0 ; deletions 0 ; identity 99.67 ; similarity 99.67
+ctg198_len=584486	exonerate:est2genome	similarity	314106	314409	1511	-	.	alignment_id 1 ; Query GAUT01000435.1 ; Align 314410 1 304
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg198_len=584486	exonerate:est2genome	gene	158255	158621	1749	+	.	gene_id 1 ; sequence GAUT01001072.1 ; gene_orientation . ; identity 98.63 ; similarity 98.63
+ctg198_len=584486	exonerate:est2genome	exon	158255	158621	.	+	.	insertions 1 ; deletions 2 ; identity 98.63 ; similarity 98.63
+ctg198_len=584486	exonerate:est2genome	similarity	158255	158621	1749	+	.	alignment_id 1 ; Query GAUT01001072.1 ; Align 158255 1 45 ; Align 158300 47 103 ; Align 158404 150 135 ; Align 158539 286 83
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1913_len=168451	exonerate:est2genome	gene	101905	102344	2118	+	.	gene_id 1 ; sequence GAUT01000663.1 ; gene_orientation . ; identity 99.77 ; similarity 99.77
+ctg1913_len=168451	exonerate:est2genome	exon	101905	102344	.	+	.	insertions 1 ; deletions 6 ; identity 99.77 ; similarity 99.77
+ctg1913_len=168451	exonerate:est2genome	similarity	101905	102344	2118	+	.	alignment_id 1 ; Query GAUT01000663.1 ; Align 101905 1 64 ; Align 101970 65 114 ; Align 102084 180 68 ; Align 102152 249 5 ; Align 102157 255 11 ; Align 102168 269 177
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1907_len=306312	exonerate:est2genome	gene	70978	71310	1621	+	.	gene_id 1 ; sequence GAUT01001092.1 ; gene_orientation . ; identity 99.10 ; similarity 99.10
+ctg1907_len=306312	exonerate:est2genome	exon	70978	71310	.	+	.	insertions 1 ; deletions 0 ; identity 99.10 ; similarity 99.10
+ctg1907_len=306312	exonerate:est2genome	similarity	70978	71310	1621	+	.	alignment_id 1 ; Query GAUT01001092.1 ; Align 70978 1 297 ; Align 71276 298 35
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1891_len=280744	exonerate:est2genome	gene	57267	68421	1976	-	.	gene_id 1 ; sequence GAUT01000629.1 ; gene_orientation + ; identity 98.56 ; similarity 98.56
+ctg1891_len=280744	exonerate:est2genome	utr5	68400	68421	.	-	.	
+ctg1891_len=280744	exonerate:est2genome	exon	68400	68421	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg1891_len=280744	exonerate:est2genome	splice5	68398	68399	.	-	.	intron_id 1 ; splice_site "GT"
+ctg1891_len=280744	exonerate:est2genome	intron	62852	68399	.	-	.	intron_id 1
+ctg1891_len=280744	exonerate:est2genome	splice3	62852	62853	.	-	.	intron_id 0 ; splice_site "AG"
+ctg1891_len=280744	exonerate:est2genome	utr5	62520	62851	.	-	.	
+ctg1891_len=280744	exonerate:est2genome	exon	62520	62851	.	-	.	insertions 2 ; deletions 0 ; identity 98.19 ; similarity 98.19
+ctg1891_len=280744	exonerate:est2genome	splice5	62518	62519	.	-	.	intron_id 2 ; splice_site "GT"
+ctg1891_len=280744	exonerate:est2genome	intron	57331	62519	.	-	.	intron_id 2
+ctg1891_len=280744	exonerate:est2genome	splice3	57331	57332	.	-	.	intron_id 1 ; splice_site "TG"
+ctg1891_len=280744	exonerate:est2genome	exon	57267	57330	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg1891_len=280744	exonerate:est2genome	similarity	57267	68421	1976	-	.	alignment_id 1 ; Query GAUT01000629.1 ; Align 68422 1 22 ; Align 62852 23 83 ; Align 62768 106 74 ; Align 62693 180 173 ; Align 57331 353 64
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1842_len=140344	exonerate:est2genome	gene	77864	78492	2996	+	.	gene_id 1 ; sequence GAUT01000249.1 ; gene_orientation . ; identity 99.36 ; similarity 99.36
+ctg1842_len=140344	exonerate:est2genome	exon	77864	78492	.	+	.	insertions 5 ; deletions 3 ; identity 99.36 ; similarity 99.36
+ctg1842_len=140344	exonerate:est2genome	similarity	77864	78492	2996	+	.	alignment_id 1 ; Query GAUT01000249.1 ; Align 77864 1 43 ; Align 77908 44 352 ; Align 78261 396 70 ; Align 78331 467 82 ; Align 78413 550 6 ; Align 78420 556 8 ; Align 78430 564 9 ; Align 78439 574 54
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1794_len=412544	exonerate:est2genome	gene	97163	97530	1840	+	.	gene_id 1 ; sequence GAUT01000224.1 ; gene_orientation . ; identity 100.00 ; similarity 100.00
+ctg1794_len=412544	exonerate:est2genome	exon	97163	97530	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg1794_len=412544	exonerate:est2genome	similarity	97163	97530	1840	+	.	alignment_id 1 ; Query GAUT01000224.1 ; Align 97163 1 368
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1783_len=232934	exonerate:est2genome	gene	47287	47615	1572	+	.	gene_id 1 ; sequence GAUT01001146.1 ; gene_orientation . ; identity 99.08 ; similarity 99.08
+ctg1783_len=232934	exonerate:est2genome	exon	47287	47615	.	+	.	insertions 2 ; deletions 1 ; identity 99.08 ; similarity 99.08
+ctg1783_len=232934	exonerate:est2genome	similarity	47287	47615	1572	+	.	alignment_id 1 ; Query GAUT01001146.1 ; Align 47287 1 53 ; Align 47341 54 20 ; Align 47362 74 196 ; Align 47558 271 58
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1778_len=351123	exonerate:est2genome	gene	181977	309042	1649	-	.	gene_id 1 ; sequence GAUT01001382.1 ; gene_orientation + ; identity 100.00 ; similarity 100.00
+ctg1778_len=351123	exonerate:est2genome	utr5	309034	309042	.	-	.	
+ctg1778_len=351123	exonerate:est2genome	exon	309034	309042	.	-	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg1778_len=351123	exonerate:est2genome	splice5	309032	309033	.	-	.	intron_id 1 ; splice_site "GT"
+ctg1778_len=351123	exonerate:est2genome	intron	182308	309033	.	-	.	intron_id 1
+ctg1778_len=351123	exonerate:est2genome	splice3	182308	182309	.	-	.	intron_id 0 ; splice_site "AG"
+ctg1778_len=351123	exonerate:est2genome	exon	181977	182307	.	-	.	insertions 1 ; deletions 1 ; identity 100.00 ; similarity 100.00
+ctg1778_len=351123	exonerate:est2genome	similarity	181977	309042	1649	-	.	alignment_id 1 ; Query GAUT01001382.1 ; Align 309043 1 9 ; Align 182308 10 247 ; Align 182060 257 27 ; Align 182033 285 56
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1778_len=351123	exonerate:est2genome	gene	181664	181976	1535	-	.	gene_id 1 ; sequence GAUT01001381.1 ; gene_orientation . ; identity 99.36 ; similarity 99.36
+ctg1778_len=351123	exonerate:est2genome	exon	181664	181976	.	-	.	insertions 0 ; deletions 1 ; identity 99.36 ; similarity 99.36
+ctg1778_len=351123	exonerate:est2genome	similarity	181664	181976	1535	-	.	alignment_id 1 ; Query GAUT01001381.1 ; Align 181977 1 133 ; Align 181844 135 180
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1768_len=154267	exonerate:est2genome	gene	74961	75303	1682	-	.	gene_id 1 ; sequence GAUT01000090.1 ; gene_orientation . ; identity 99.71 ; similarity 99.71
+ctg1768_len=154267	exonerate:est2genome	exon	74961	75303	.	-	.	insertions 0 ; deletions 2 ; identity 99.71 ; similarity 99.71
+ctg1768_len=154267	exonerate:est2genome	similarity	74961	75303	1682	-	.	alignment_id 1 ; Query GAUT01000090.1 ; Align 75304 1 44 ; Align 75260 46 143 ; Align 75117 190 156
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1745_len=287034	exonerate:est2genome	gene	157262	157711	2174	+	.	gene_id 1 ; sequence GAUT01001295.1 ; gene_orientation . ; identity 99.55 ; similarity 99.55
+ctg1745_len=287034	exonerate:est2genome	exon	157262	157711	.	+	.	insertions 2 ; deletions 2 ; identity 99.55 ; similarity 99.55
+ctg1745_len=287034	exonerate:est2genome	similarity	157262	157711	2174	+	.	alignment_id 1 ; Query GAUT01001295.1 ; Align 157262 1 161 ; Align 157423 163 10 ; Align 157434 173 1 ; Align 157436 174 172 ; Align 157608 347 104
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1640_len=400680	exonerate:est2genome	gene	367914	368298	1892	+	.	gene_id 1 ; sequence GAUT01001099.1 ; gene_orientation . ; identity 99.74 ; similarity 99.74
+ctg1640_len=400680	exonerate:est2genome	exon	367914	368298	.	+	.	insertions 0 ; deletions 2 ; identity 99.74 ; similarity 99.74
+ctg1640_len=400680	exonerate:est2genome	similarity	367914	368298	1892	+	.	alignment_id 1 ; Query GAUT01001099.1 ; Align 367914 1 16 ; Align 367930 18 8 ; Align 367938 27 361
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1636_len=301617	exonerate:est2genome	gene	270394	271045	3078	+	.	gene_id 1 ; sequence GAUT01001186.1 ; gene_orientation . ; identity 99.53 ; similarity 99.53
+ctg1636_len=301617	exonerate:est2genome	exon	270394	271045	.	+	.	insertions 11 ; deletions 2 ; identity 99.53 ; similarity 99.53
+ctg1636_len=301617	exonerate:est2genome	similarity	270394	271045	3078	+	.	alignment_id 1 ; Query GAUT01001186.1 ; Align 270394 1 408 ; Align 270803 409 14 ; Align 270817 424 83 ; Align 270900 508 21 ; Align 270922 529 12 ; Align 270935 541 7 ; Align 270950 548 96
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1589_len=286631	exonerate:est2genome	gene	233375	233838	2252	+	.	gene_id 1 ; sequence GAUT01000814.1 ; gene_orientation . ; identity 99.35 ; similarity 99.35
+ctg1589_len=286631	exonerate:est2genome	exon	233375	233838	.	+	.	insertions 1 ; deletions 2 ; identity 99.35 ; similarity 99.35
+ctg1589_len=286631	exonerate:est2genome	similarity	233375	233838	2252	+	.	alignment_id 1 ; Query GAUT01000814.1 ; Align 233375 1 152 ; Align 233527 154 59 ; Align 233587 213 60 ; Align 233647 274 192
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1563_len=232056	exonerate:est2genome	gene	31729	32143	2015	-	.	gene_id 1 ; sequence GAUT01000108.1 ; gene_orientation . ; identity 99.04 ; similarity 99.04
+ctg1563_len=232056	exonerate:est2genome	exon	31729	32143	.	-	.	insertions 0 ; deletions 2 ; identity 99.04 ; similarity 99.04
+ctg1563_len=232056	exonerate:est2genome	similarity	31729	32143	2015	-	.	alignment_id 1 ; Query GAUT01000108.1 ; Align 32144 1 205 ; Align 31939 207 12 ; Align 31927 220 198
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1535_len=273282	exonerate:est2genome	gene	213250	213668	2057	+	.	gene_id 1 ; sequence GAUT01000503.1 ; gene_orientation . ; identity 99.52 ; similarity 99.52
+ctg1535_len=273282	exonerate:est2genome	exon	213250	213668	.	+	.	insertions 0 ; deletions 3 ; identity 99.52 ; similarity 99.52
+ctg1535_len=273282	exonerate:est2genome	similarity	213250	213668	2057	+	.	alignment_id 1 ; Query GAUT01000503.1 ; Align 213250 1 185 ; Align 213435 189 234
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1429_len=541834	exonerate:est2genome	gene	286316	286667	1697	+	.	gene_id 1 ; sequence GAUT01000975.1 ; gene_orientation . ; identity 99.15 ; similarity 99.15
+ctg1429_len=541834	exonerate:est2genome	exon	286316	286667	.	+	.	insertions 0 ; deletions 3 ; identity 99.15 ; similarity 99.15
+ctg1429_len=541834	exonerate:est2genome	similarity	286316	286667	1697	+	.	alignment_id 1 ; Query GAUT01000975.1 ; Align 286316 1 229 ; Align 286545 231 29 ; Align 286574 261 41 ; Align 286615 303 53
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1429_len=541834	exonerate:est2genome	gene	286812	287281	2236	-	.	gene_id 1 ; sequence GAUT01000408.1 ; gene_orientation . ; identity 99.57 ; similarity 99.57
+ctg1429_len=541834	exonerate:est2genome	exon	286812	287281	.	-	.	insertions 4 ; deletions 3 ; identity 99.57 ; similarity 99.57
+ctg1429_len=541834	exonerate:est2genome	similarity	286812	287281	2236	-	.	alignment_id 1 ; Query GAUT01000408.1 ; Align 287282 1 14 ; Align 287268 16 71 ; Align 287197 88 1 ; Align 287196 90 46 ; Align 287149 136 4 ; Align 287143 140 247 ; Align 286895 387 83
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1390_len=171223	exonerate:est2genome	gene	40195	40635	2196	+	.	gene_id 1 ; sequence GAUT01000142.1 ; gene_orientation . ; identity 99.77 ; similarity 99.77
+ctg1390_len=171223	exonerate:est2genome	exon	40195	40635	.	+	.	insertions 0 ; deletions 0 ; identity 99.77 ; similarity 99.77
+ctg1390_len=171223	exonerate:est2genome	similarity	40195	40635	2196	+	.	alignment_id 1 ; Query GAUT01000142.1 ; Align 40195 1 441
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-26
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1363_len=219305	exonerate:est2genome	gene	188360	188795	2094	-	.	gene_id 1 ; sequence GAUT01001286.1 ; gene_orientation . ; identity 98.85 ; similarity 98.85
+ctg1363_len=219305	exonerate:est2genome	exon	188360	188795	.	-	.	insertions 1 ; deletions 2 ; identity 98.85 ; similarity 98.85
+ctg1363_len=219305	exonerate:est2genome	similarity	188360	188795	2094	-	.	alignment_id 1 ; Query GAUT01001286.1 ; Align 188796 1 64 ; Align 188732 66 112 ; Align 188620 179 193 ; Align 188426 372 66
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-27
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1331_len=169627	exonerate:est2genome	gene	111791	112207	2055	-	.	gene_id 1 ; sequence GAUT01000767.1 ; gene_orientation . ; identity 99.52 ; similarity 99.52
+ctg1331_len=169627	exonerate:est2genome	exon	111791	112207	.	-	.	insertions 0 ; deletions 1 ; identity 99.52 ; similarity 99.52
+ctg1331_len=169627	exonerate:est2genome	similarity	111791	112207	2055	-	.	alignment_id 1 ; Query GAUT01000767.1 ; Align 112208 1 410 ; Align 111798 412 7
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-27
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg124_len=565923	exonerate:est2genome	gene	279499	280148	3161	-	.	gene_id 1 ; sequence GAUT01000278.1 ; gene_orientation . ; identity 99.54 ; similarity 99.54
+ctg124_len=565923	exonerate:est2genome	exon	279499	280148	.	-	.	insertions 2 ; deletions 5 ; identity 99.54 ; similarity 99.54
+ctg124_len=565923	exonerate:est2genome	similarity	279499	280148	3161	-	.	alignment_id 1 ; Query GAUT01000278.1 ; Align 280149 6 53 ; Align 280096 60 10 ; Align 280086 74 152 ; Align 279932 226 433
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-27
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg122_len=583763	exonerate:est2genome	gene	362445	366955	3003	+	.	gene_id 1 ; sequence GAUT01000146.1 ; gene_orientation + ; identity 100.00 ; similarity 100.00
+ctg122_len=583763	exonerate:est2genome	utr5	362445	362522	.	+	.	
+ctg122_len=583763	exonerate:est2genome	exon	362445	362522	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg122_len=583763	exonerate:est2genome	splice5	362523	362524	.	+	.	intron_id 1 ; splice_site "GT"
+ctg122_len=583763	exonerate:est2genome	intron	362523	364777	.	+	.	intron_id 1
+ctg122_len=583763	exonerate:est2genome	splice3	364776	364777	.	+	.	intron_id 0 ; splice_site "AG"
+ctg122_len=583763	exonerate:est2genome	utr5	364778	364925	.	+	.	
+ctg122_len=583763	exonerate:est2genome	exon	364778	364925	.	+	.	insertions 0 ; deletions 2 ; identity 100.00 ; similarity 100.00
+ctg122_len=583763	exonerate:est2genome	splice5	364926	364927	.	+	.	intron_id 2 ; splice_site "GT"
+ctg122_len=583763	exonerate:est2genome	intron	364926	366573	.	+	.	intron_id 2
+ctg122_len=583763	exonerate:est2genome	splice3	366572	366573	.	+	.	intron_id 1 ; splice_site "AG"
+ctg122_len=583763	exonerate:est2genome	exon	366574	366955	.	+	.	insertions 0 ; deletions 0 ; identity 100.00 ; similarity 100.00
+ctg122_len=583763	exonerate:est2genome	similarity	362445	366955	3003	+	.	alignment_id 1 ; Query GAUT01000146.1 ; Align 362445 1 78 ; Align 364778 79 127 ; Align 364905 208 21 ; Align 366574 229 382
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-27
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg120_len=399326	exonerate:est2genome	gene	348995	349373	1869	+	.	gene_id 1 ; sequence GAUT01000178.1 ; gene_orientation . ; identity 99.74 ; similarity 99.74
+ctg120_len=399326	exonerate:est2genome	exon	348995	349373	.	+	.	insertions 1 ; deletions 0 ; identity 99.74 ; similarity 99.74
+ctg120_len=399326	exonerate:est2genome	similarity	348995	349373	1869	+	.	alignment_id 1 ; Query GAUT01000178.1 ; Align 348995 1 101 ; Align 349097 102 277
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-27
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1166_len=185773	exonerate:est2genome	gene	71115	96377	8195	+	.	gene_id 1 ; sequence GAUT01001457.1 ; gene_orientation - ; identity 99.46 ; similarity 99.46
+ctg1166_len=185773	exonerate:est2genome	utr5	71115	71602	.	+	.	
+ctg1166_len=185773	exonerate:est2genome	exon	71115	71602	.	+	.	insertions 3 ; deletions 3 ; identity 98.35 ; similarity 98.35
+ctg1166_len=185773	exonerate:est2genome	splice3	71603	71604	.	+	.	intron_id -1 ; splice_site "CT"
+ctg1166_len=185773	exonerate:est2genome	splice5	95185	95186	.	+	.	intron_id 1 ; splice_site "AC"
+ctg1166_len=185773	exonerate:est2genome	exon	95187	96377	.	+	.	insertions 0 ; deletions 2 ; identity 99.92 ; similarity 99.92
+ctg1166_len=185773	exonerate:est2genome	similarity	71115	96377	8195	+	.	alignment_id 1 ; Query GAUT01001457.1 ; Align 71115 2 33 ; Align 71148 36 47 ; Align 71195 84 5 ; Align 71201 89 214 ; Align 71415 304 55 ; Align 71471 359 9 ; Align 71481 368 122 ; Align 95187 490 902 ; Align 96089 1393 100 ; Align 96189 1494 189
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-27
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1087_len=185106	exonerate:est2genome	gene	119896	121029	5456	-	.	gene_id 1 ; sequence GAUT01001367.1 ; gene_orientation . ; identity 99.56 ; similarity 99.56
+ctg1087_len=185106	exonerate:est2genome	exon	119896	121029	.	-	.	insertions 5 ; deletions 9 ; identity 99.56 ; similarity 99.56
+ctg1087_len=185106	exonerate:est2genome	similarity	119896	121029	5456	-	.	alignment_id 1 ; Query GAUT01001367.1 ; Align 121030 1 107 ; Align 120923 109 223 ; Align 120699 332 26 ; Align 120672 358 13 ; Align 120658 371 16 ; Align 120642 388 25 ; Align 120616 413 306 ; Align 120309 719 50 ; Align 120259 771 19 ; Align 120240 791 194 ; Align 120046 987 25 ; Align 120021 1014 125
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-27
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg1047_len=188721	exonerate:est2genome	gene	129884	130224	1628	-	.	gene_id 1 ; sequence GAUT01000144.1 ; gene_orientation . ; identity 98.82 ; similarity 98.82
+ctg1047_len=188721	exonerate:est2genome	exon	129884	130224	.	-	.	insertions 1 ; deletions 2 ; identity 98.82 ; similarity 98.82
+ctg1047_len=188721	exonerate:est2genome	similarity	129884	130224	1628	-	.	alignment_id 1 ; Query GAUT01000144.1 ; Align 130225 1 170 ; Align 130055 172 6 ; Align 130048 178 65 ; Align 129983 244 99
+# --- END OF GFF DUMP ---
+#
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:est2genome 2.4.0
+##date 2022-01-27
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+ctg102_len=541311	exonerate:est2genome	gene	312360	313410	5040	+	.	gene_id 1 ; sequence GAUT01000233.1 ; gene_orientation . ; identity 99.04 ; similarity 99.04
+ctg102_len=541311	exonerate:est2genome	exon	312360	313410	.	+	.	insertions 5 ; deletions 4 ; identity 99.04 ; similarity 99.04
+ctg102_len=541311	exonerate:est2genome	similarity	312360	313410	5040	+	.	alignment_id 1 ; Query GAUT01000233.1 ; Align 312360 1 303 ; Align 312663 305 11 ; Align 312676 316 20 ; Align 312696 337 7 ; Align 312704 344 321 ; Align 313026 665 82 ; Align 313109 747 7 ; Align 313116 755 113 ; Align 313229 869 182
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis
