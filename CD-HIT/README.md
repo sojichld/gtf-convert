@@ -1,4 +1,9 @@
-### cdhit-convert 
+## Contents:  
+- cdhit-convert.py - conversion script  
+- transcripts_id090_k05.fa.clstr - example cluster file  
+- transcripts_id090_k05.fa.clstr_converted.gtf - example output  
+___
+# cdhit-convert 
 The ClusterFile contains cluster and count attributes that contain a dictionary of cluster entries for each cluster,and the total count of the file.
 
 read() - Reads found clusters and total number of clusters from a .clstr file and stores cluster hits as a ClusterFile instance.This method creates an instance of the file. 
@@ -28,7 +33,7 @@ cdhit_convert.py <clstr file> <file type>
 
 Example:
 
-`python cdhit-convert.py -i .\cd-hit\transcripts_id090_k05.fa.clstr -t 2`
+`python cdhit-convert.py -i .\transcripts_id090_k05.fa.clstr -t 1`
 
 
 Sample Output:  
