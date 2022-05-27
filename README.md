@@ -1,1 +1,1 @@
-"Converters for Genome Project File Formats" 
+Converters for Genome Project File Formats
