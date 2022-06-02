@@ -26,16 +26,16 @@ def main(args):
             for j in range(columns):
                 entry.append(first_sheet.cell(row=i+1, column=j+1).value)
             blastFields.append(entry)  
-        for i in blastFields:
-            print(i)
+        #for i in blastFields:
+            #print(i)
     elif args.type == 'tsv':
         TSV = True
         blastFields: List[List[str]] = []
         for line in open(args.input, 'r', encoding="utf8"):
             columns = line.strip().split("\t")
             blastFields.append(columns) 
-        for i in blastFields:
-            print(i)
+        #for i in blastFields:
+            #print(i)
     else:
         if args.type == 'csv':
             CSV = True
@@ -43,18 +43,13 @@ def main(args):
             for line in open(args.input, 'r', encoding="utf8"):
                 columns = line.strip().split(",")
                 blastFields.append(columns) 
-            for i in blastFields:
-                print(i)
+            #for i in blastFields:
+                #print(i)
 
-    output = open(f'converted_{args.input}.gtf', 'w')
+    output = open(f'{args.input}.gtf', 'w')
     for column in blastFields:
-        if TSV or CSV:
-
-            attr: str = 'cluster="{}"; pident="{}"; length="{}"; mismatch="{}"; gapopen="{}"; bitscore="{}", qstart="{}": qend="{}";'.format(column[1], column[2], column[3], column[4], column[5], column[6], column[7], column[11])
-            seqid, source, feature, start, end, score, strand, frame = column[0], 'BLAST', 'CDS', column[8], column[9] ,column[10], '.', '.'
-        else:
-            attr: str = 'gene="{}"; cluster="{}"; pident="{}"; length="{}"; mismatch="{}"; gapopen="{}"; bitscore="{}", qstart="{}": qend="{}";'.format(column[0], column[2], column[3], column[4], column[5], column[6], column[7], column[8], column[12])
-            seqid, source, feature, start, end, score, strand, frame = column[1], 'BLAST', 'CDS', column[9], column[10] ,column[11], '.', '.'
+        attr: str = 'cluster="{}"; pident="{}"; length="{}"; mismatch="{}"; gapopen="{}"; bitscore="{}", qstart="{}": qend="{}";'.format(column[1], column[2], column[3], column[4], column[5], column[6], column[7], column[11])
+        seqid, source, feature, start, end, score, strand, frame = column[0], 'BLAST', 'CDS', column[8], column[9] ,column[10], '.', '.'
         output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seqid, source, feature, start, end, score, strand, frame, attr))
     output.close()
 if __name__ == '__main__':
