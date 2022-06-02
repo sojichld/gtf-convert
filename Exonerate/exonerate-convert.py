@@ -6,7 +6,7 @@ import re
 
 
 def main():
-    parser = argparse.ArgumentParser( description='Converts exonerate GFF output to GFF3')
+    parser = argparse.ArgumentParser( description='Converts exonerate GFF2 output to GTF')
 
     # output file to be written
     parser.add_argument('-i', '--input_file', type=str, required=True, help='Path to an input file to parse' )
@@ -15,7 +15,7 @@ def main():
     args = parser.parse_args()
 
     fout = open(args.output_file, 'w')
-    fout.write("##gff-version 3\n")
+    fout.write("##gtf\n")
 
     next_id_num = 1
     in_gff3_region = False
