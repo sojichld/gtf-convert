@@ -45,39 +45,41 @@ class ClusterFile:
 				isCluster = False
 			else:
 				reads += line.strip().split('\t')
+				#print(reads)
 				# Mark as a cluster if there is at least one identity entry in the cluster.
-				if '%' in reads[1]:
-					isCluster = True
+				for r in reads:
+					if '%' in r:
+						isCluster = True
 		CLUSTR.close()
 		numClusters = len(clusters)
 		print(f'{numClusters} clusters retrieved.')
 		newCluster = ClusterFile(clusters, numClusters)
 		return newCluster
 
-	def convertToGTF(self, seqname: str, source: str, feature: str, strand: str, frame: str):
+	def convertToGTF(self, source: str, feature: str, strand: str, frame: str):
 		'''Writes ClusterFile objects as GTF files.'''
 		name = args.input
-		with open(f'{name}_converted.gtf', 'w') as f:
+		with open(f'converted_{name}', 'w') as f:
 			start: int = 0
 			for i in self.clusters.items():
 				cluster = i[0]
 				for j in i[1]: 
-					seqLength = int(re.search('^(\d+)aa', j).group(1))
-					end = start + seqLength
+					end = int(re.search('^(\d+)aa', j).group(1))
+					#end = start + seqLength
 					if '*' in j:
 						score: float = 1.0
 					else:
 						score: float = float(re.search('(\d+(\.\d+)?)%', j).group(1)) / 100
 						score = round(score, 2)
-					transcript_id = re.search('_(\d+).', j).group(1)
+					seq_id = 'seq_#' + re.search('_(\d+).', j).group(1).strip()
 					if args.type == 1:
-						attr: str = 'transcript_id {}; cluster {};'.format(transcript_id, cluster)
-						f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seqname, source, feature, start, end, score, strand, frame, attr))
+						attr: str = 'cluster="{}";'.format(cluster)
+						f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seq_iq, source, feature, start, end, score, strand, frame, attr))
 					else:
 						gene_biotype = re.search('>(.*)_', j).group(1)
-						attr: str = 'transcript_id="{}"; cluster="{}"; gene_biotype="{}";'.format(transcript_id, cluster, gene_biotype)
-						f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seqname, source, feature, start, end, score, strand, frame, attr))
-					start = end + 1
+						attr: str = 'cluster="{}"; gene_biotype="{}";'.format(cluster, gene_biotype)
+						f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seq_iq, source, feature, start, end, score, strand, frame, attr))
+					#start = end + 1
 			f.close()
 		return
 
@@ -97,13 +99,10 @@ class ClusterFile:
 
 def main(args):
 	clstr_file = args.input
-	seqname, source, feature, strand, frame = '20220121_Cuke', 'CD-HIT', 'CDS', '.', '.'
-#   Project Names
-#   seqname, source, feature, strand, frame = args.name, 'CD-HIT', 'CDS', '.', '.'
+	source, feature, strand, frame = 'CD-HIT', 'CDS', '.', '.'
 	newFile = ClusterFile.read(clstr_file)
-	#print(newFile)
 	newFile.showResults(10)
-	newFile.convertToGTF(seqname, source, feature, strand, frame)
+	newFile.convertToGTF(source, feature, strand, frame)
 
 ##
 # INITIALIZATION
@@ -114,7 +113,6 @@ if __name__ == '__main__':
 	parser=argparse.ArgumentParser()
 	parser.add_argument("-i", "--input", help = "A cluster file (.clstr) from CD-HIT", type = str)
 	parser.add_argument("-t", "--type", help = "Either 1 for 1D or 2 for 2D (default = 1)", type = int, required = False, choices=[1, 2], default=1)
-	parser.add_argument("-n", "--name", help = "The GTF sequence name", type = str, required = False, default="Unknown")
 	args = parser.parse_args()
 	main(args) # This will call the main fuction
 
