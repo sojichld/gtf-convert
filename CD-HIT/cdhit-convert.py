@@ -64,6 +64,7 @@ class ClusterFile:
 			start: int = 0
 			for cluster in self.clusters:
 				for entry in self.clusters[cluster]:
+					score = '100.0'
 					end, seq_id, percentage = re.compile("^(\d+).*?,.*?>([^\s\t\n ]+)[\s\n\t ]+(.+)").findall(entry.strip())[0]
 					end = int(end.strip())
 					seq_id = re.sub("\.+$", "", seq_id)
