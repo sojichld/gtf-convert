@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# Name: runGTFConvert.py
+# Description: Converts all files in a directory into GTF format. 
+
+##
+# MODULES
+##
 import argparse, glob, sys, re, os
 
 
