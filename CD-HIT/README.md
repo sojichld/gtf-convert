@@ -43,15 +43,15 @@ python cdhit-convert.py -i .\transcripts_id090_k05.fa.clstr -t 1
 
 20220123_Cuke	CD-HIT	CDS	1943	3964	1.0	.	.	transcript_id 3629; cluster Cluster 7; 
 
- 20220121_Cuke	CD-HIT	CDS	3965	5321	0.99	.	.	transcript_id 8314; cluster Cluster 33;   
+20220121_Cuke	CD-HIT	CDS	3965	5321	0.99	.	.	transcript_id 8314; cluster Cluster 33;   
 
- 20220121_Cuke	CD-HIT	CDS	5322	6690	1.0	.	.	transcript_id 8315; cluster Cluster 33;  
+20220121_Cuke	CD-HIT	CDS	5322	6690	1.0	.	.	transcript_id 8315; cluster Cluster 33;  
 
- 20220121_Cuke	CD-HIT	CDS	6691	7639	0.95	.	.	transcript_id 17220; cluster Cluster 84;  
+20220121_Cuke	CD-HIT	CDS	6691	7639	0.95	.	.	transcript_id 17220; cluster Cluster 84;  
 
- 20220121_Cuke	CD-HIT	CDS	7640	8743	1.0	.	.	transcript_id 17221; cluster Cluster 84;  
+20220121_Cuke	CD-HIT	CDS	7640	8743	1.0	.	.	transcript_id 17221; cluster Cluster 84;  
 
- 20220121_Cuke	CD-HIT	CDS	8744	9847	1.0	.	.	transcript_id 17222; cluster Cluster 84;  
+20220121_Cuke	CD-HIT	CDS	8744	9847	1.0	.	.	transcript_id 17222; cluster Cluster 84;  
 
- 20220121_Cuke	CD-HIT	CDS	9848	10941	1.0	.	.	transcript_id 27812; cluster Cluster 89;  
+20220121_Cuke	CD-HIT	CDS	9848	10941	1.0	.	.	transcript_id 27812; cluster Cluster 89;  
  ```
