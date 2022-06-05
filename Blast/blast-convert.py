@@ -48,7 +48,7 @@ def main(args):
 
     output = open(f'{args.input}.gtf', 'w')
     for column in blastFields:
-        attr: str = 'cluster="{}"; pident="{}"; length="{}"; mismatch="{}"; gapopen="{}"; bitscore="{}", qstart="{}": qend="{}";'.format(column[1], column[2], column[3], column[4], column[5], column[6], column[7], column[11])
+        attr: str = 'target="{}"; pident="{}"; length="{}"; mismatch="{}"; gapopen="{}"; bitscore="{}", qstart="{}": qend="{}";'.format(column[1], column[2], column[3], column[4], column[5], column[6], column[7], column[11])
         seqid, source, feature, start, end, score, strand, frame = column[0], 'BLAST', 'CDS', column[8], column[9] ,column[10], '.', '.'
         output.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seqid, source, feature, start, end, score, strand, frame, attr))
     output.close()
