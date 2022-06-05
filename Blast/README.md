@@ -1,12 +1,12 @@
 ## Contents:
-- blast-convert.py - conversion script
-- blastn.outfmt6.tsv - example blast file (tsv)
-- blastn.outfmt6.csv - example blast file (csv)
-- blastn.outfmt6.xlsx - example blast file (xslx)
+- `blast-convert.py` - conversion script
+- `blastn.outfmt6.tsv` - example blast file (tsv)
+- `blastn.outfmt6.csv` - example blast file (csv)
+- `blastn.outfmt6.xlsx` - example blast file (xslx)
 
-- blastn.outfmt6.tsv.gtf - example output 
-- blastn.outfmt6.csv.gtf - example output 
-- blastn.outfmt6.xlsx.gtf - example output
+- `blastn.outfmt6.tsv.gtf` - example output 
+- `blastn.outfmt6.csv.gtf` - example output 
+- `blastn.outfmt6.xlsx.gtf` - example output
 ___
 # blast6-convert
 

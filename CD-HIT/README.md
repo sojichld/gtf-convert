@@ -1,7 +1,7 @@
 ## Contents:  
-- cdhit-convert.py - conversion script  
-- transcripts_id090_k05.fa.clstr - example cluster file  
-- transcripts_id090_k05.fa.clstr_converted.gtf - example output  
+- `cdhit-convert.py` - conversion script  
+- `transcripts_id090_k05.fa.clstr` - example cluster file  
+- `transcripts_id090_k05.fa.clstr_converted.gtf` - example output  
 ___
 # cdhit-convert 
 The ClusterFile contains cluster and count attributes that contain a dictionary of cluster entries for each cluster,and the total count of the file.
