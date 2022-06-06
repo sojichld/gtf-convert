@@ -17,3 +17,22 @@ See exonerate's homepage [here](https://www.ebi.ac.uk/about/vertebrate-genomics/
 ### CD-HIT
 
 CD-HIT is available from [here](https://github.com/weizhongli/cdhit).
+
+
+# Contents
+___
+## **Blast**
+Script and samples for the running of gtf-convert on blast output.
+## **CD-HIT**  
+Script and samples for the running of gtf-convert on CD-HIT output.  
+## **Exonerate**  
+Script and samples for the running of gtf-convert on exonerate output.
+
+___
+`runGTFConvert.py`  - Operate to run gtf-convert on files in the target directory.
+
+### Example Usage:  
+-d : Top Level Directory
+```
+python .\runGTFConvert.py -d .\transcripts
+```
