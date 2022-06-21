@@ -11,7 +11,7 @@
 import sys, re, argparse
 from tkinter       import scrolledtext
 from tracemalloc   import start
-from typing        import List, Dict 
+from typing        import List, Dict
 from xmlrpc.client import Boolean
 from itertools     import islice
 
@@ -24,11 +24,11 @@ class ClusterFile:
 		return 'A cluster file containing {} clusters.'.format(self.count)
 
 	def __repr__(self) -> str:
-		'''Returns representation of cluster obj.''' 
+		'''Returns representation of cluster obj.'''
 		preview = list(islice(self.clusters.items(), 2))
 		return "ClusterFile('{}', '{}', '{}')".format(preview, self.count, self.attributes)
 
-	def read(clstr_file: str) -> any: 
+	def read(clstr_file: str) -> any:
 		'''Reads clusters and number of clusters from .clstr file. Returns ClusterFile object.'''
 		clusters: Dict[str , List[str]] = {}
 		CLUSTR = open(clstr_file, 'r', encoding="utf8")
@@ -63,7 +63,9 @@ class ClusterFile:
 		with open(f'{name}.gtf', 'w') as f:
 			start: int = 0
 			for cluster in self.clusters:
+				entries_count = 0
 				for entry in self.clusters[cluster]:
+					entries_count += 1
 					score = '100.0'
 					end, seq_id, percentage = re.compile("^(\d+).*?,.*?>([^\s\t\n ]+)[\s\n\t ]+(.+)").findall(entry.strip())[0]
 					end = int(end.strip())
@@ -72,19 +74,21 @@ class ClusterFile:
 						percentage = re.compile("at ([\d\.]+)%").findall(percentage)[0]
 					except:
 						percentage = score
+					score = percentage
+					if args.type == 1:
+						if args.attributes:
+							attr: str = 'cluster="{0}"; {1}'.format(cluster, args.attributes)
+						else:
+							attr: str = 'cluster="{0}"'.format(cluster)
+							f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seq_id, source, feature, start, end, score, strand, frame, attr))
 					else:
-						score = percentage
-						if args.type == 1:
-							if args.attributes:
-								attr: str = 'cluster="{0}"; {1}'.format(cluster, args.attributes)
-							else:
-								attr: str = 'cluster="{0}"'.format(cluster)
-								f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seq_id, source, feature, start, end, score, strand, frame, attr))
+						if entries_count == 1:
+							clstr_name = seq_id
 						else:
 							if args.attributes:
-								attr: str = 'cluster="{0}"; {1}'.format(cluster, args.attributes)
+								attr: str = 'cluster="{0}"; Name="{1}"; {2}'.format(cluster, clstr_name, args.attributes)
 							else:
-								attr: str = 'cluster="{0}"'.format(cluster)
+								attr: str = 'cluster="{0}"; Name="{1}"'.format(cluster, clstr_name)
 							f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(seq_id, source, feature, start, end, score, strand, frame, attr))
 		f.close()
 		return

@@ -1,12 +1,19 @@
-## Contents:  
-- `cdhit-convert.py` - conversion script  
-- `transcripts_id090_k05.fa.clstr` - example cluster file  
-- `transcripts_id090_k05.fa.clstr_converted.gtf` - example output  
+## Contents:
+
+- `cdhit-convert.py` - conversion script
+- `example1d.clstr` - example 1D cluster file
+- `example1d.clstr.gtf` - example 1D output
+- `example2d.clstr` - example 2D cluster file
+- `example2d.clstr.gtf` - example 2D output
 ___
-# cdhit-convert 
+
+# cdhit-convert
+
+## Functions
+
 The ClusterFile contains cluster and count attributes that contain a dictionary of cluster entries for each cluster,and the total count of the file.
 
-read() - Reads found clusters and total number of clusters from a .clstr file and stores cluster hits as a ClusterFile instance.This method creates an instance of the file. 
+read() - Reads found clusters and total number of clusters from a .clstr file and stores cluster hits as a ClusterFile instance.This method creates an instance of the file.
 
 showResults() - Prints contents of the ClusterFile instance.  Takes a parameter for the desired amount of clusters to be printed.
 
@@ -19,39 +26,53 @@ The GTF file produced contains attributes for the Transcript ID, Cluster and opt
 
 ## Usage:
 
-[0]: Name of the script.  
-[i]: file path   
-[t]: file type  
+[0]: Name of the script.
+[i]: file path
+[t]: file type
 
-File type: 
+File type:
 
-1 = 1D for standard files  
+1 = 1D for standard files
 2 = 2D for 2D files
 
 `cdhit_convert.py <clstr file> <file type> `
 
 
-## Example Usage:
+## Example usage with 1D input
+
 ```bash
-python cdhit-convert.py -i .\transcripts_id090_k05.fa.clstr -t 1
+python3 cdhit-convert.py -i example1d.clstr -t 1
 ```
 
 
-## Output:  
+### Output:
+
+```
+transcript_3628	CD-HIT	transcript	0	1942	95.83	.	.	cluster="Cluster 7"
+transcript_3629	CD-HIT	transcript	0	2021	100.0	.	.	cluster="Cluster 7"
+transcript_13536	CD-HIT	transcript	0	1643	100.0	.	.	cluster="Cluster 15"
+transcript_13537	CD-HIT	transcript	0	1627	99.88	.	.	cluster="Cluster 15"
+transcript_13538	CD-HIT	transcript	0	1610	100.0	.	.	cluster="Cluster 17"
+transcript_13539	CD-HIT	transcript	0	1610	100.00	.	.	cluster="Cluster 17"
+transcript_1301	CD-HIT	transcript	0	1497	100.0	.	.	cluster="Cluster 22"
+transcript_1302	CD-HIT	transcript	0	1497	100.00	.	.	cluster="Cluster 22"
+transcript_8311	CD-HIT	transcript	0	1417	100.0	.	.	cluster="Cluster 25"
+```
+
+## Example usage with 2D input
+
 ```bash
-20220121_Cuke	CD-HIT	CDS	0	1942	0.96	.	.	transcript_id 3628; cluster Cluster 7;  
+python3 cdhit-convert.py -i example2d.clstr -t 1
+```
 
-20220123_Cuke	CD-HIT	CDS	1943	3964	1.0	.	.	transcript_id 3629; cluster Cluster 7; 
 
-20220121_Cuke	CD-HIT	CDS	3965	5321	0.99	.	.	transcript_id 8314; cluster Cluster 33;   
+### Output:
 
-20220121_Cuke	CD-HIT	CDS	5322	6690	1.0	.	.	transcript_id 8315; cluster Cluster 33;  
+```
+transcript_7781	CD-HIT	transcript	0	16	50.00	.	.	cluster="Cluster 0"; Name="adam_8"
+transcript_14744	CD-HIT	transcript	0	11	54.55	.	.	cluster="Cluster 6"; Name="adam_11"
+```
 
-20220121_Cuke	CD-HIT	CDS	6691	7639	0.95	.	.	transcript_id 17220; cluster Cluster 84;  
+### Note:
 
-20220121_Cuke	CD-HIT	CDS	7640	8743	1.0	.	.	transcript_id 17221; cluster Cluster 84;  
-
-20220121_Cuke	CD-HIT	CDS	8744	9847	1.0	.	.	transcript_id 17222; cluster Cluster 84;  
-
-20220121_Cuke	CD-HIT	CDS	9848	10941	1.0	.	.	transcript_id 27812; cluster Cluster 89;  
- ```
+When using the 2D type, it is assumed that the 'Name' of the transcript will be the sequence ID of the first entry on that cluster.
